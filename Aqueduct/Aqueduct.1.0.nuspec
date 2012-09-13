@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Aqueduct</id>
+    <version>0.0.1.0</version>
+    <title />
+    <authors>leec</authors>
+    <owners />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Standard aqueduct lib - now merged using IL merge with log4net</description>
+    <summary />
+  </metadata>
+  <files>
+    <file src="bin\Release\v4.0\Aqueduct.dll" target="lib\net40\Aqueduct.dll" />
+    <file src="bin\Release\v3.5\Aqueduct.dll" target="lib\net35\Aqueduct.dll" />
+  </files>
+</package>

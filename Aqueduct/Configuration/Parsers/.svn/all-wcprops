@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Parsers
+END
+SettingParsersResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Parsers/SettingParsersResolver.cs
+END
+GuidSettingParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Parsers/GuidSettingParser.cs
+END
+SystemTypesSettingParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Parsers/SystemTypesSettingParser.cs
+END
+ListSettingParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Parsers/ListSettingParser.cs
+END
+BooleanSettingParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Parsers/BooleanSettingParser.cs
+END

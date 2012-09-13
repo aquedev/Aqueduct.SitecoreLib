@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/AqueductLib/!svn/ver/85/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria
+END
+AndCompositeItemFinderCriterion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria/AndCompositeItemFinderCriterion.cs
+END
+IItemFinderCriterion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria/IItemFinderCriterion.cs
+END
+DateItemFinderCriterion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/AqueductLib/!svn/ver/85/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria/DateItemFinderCriterion.cs
+END
+SitecoreItemFinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria/SitecoreItemFinder.cs
+END
+DateCriteriaBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/ItemFinderCriteria/DateCriteriaBuilder.cs
+END

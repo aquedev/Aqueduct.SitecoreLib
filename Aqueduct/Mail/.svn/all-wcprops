@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/AqueductLib/!svn/ver/147/trunk/Aqueduct/Mail
+END
+HtmlMailMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/HtmlMailMessage.cs
+END
+IMailService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Mail/IMailService.cs
+END
+MailMessageSendingEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/MailMessageSendingEventArgs.cs
+END
+IEmailService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Mail/IEmailService.cs
+END
+EmailUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/EmailUser.cs
+END
+SmtpServerInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/147/trunk/Aqueduct/Mail/SmtpServerInfo.cs
+END
+MailMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/MailMessage.cs
+END
+Attachment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/Attachment.cs
+END
+FileAttachment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/FileAttachment.cs
+END
+TextMailMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/TextMailMessage.cs
+END
+LoggingMailMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/LoggingMailMessage.cs
+END
+IEmail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Mail/IEmail.cs
+END
+MailMessageSentEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/MailMessageSentEventArgs.cs
+END
+FileDummyEmail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/FileDummyEmail.cs
+END
+StreamAttachment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Mail/StreamAttachment.cs
+END

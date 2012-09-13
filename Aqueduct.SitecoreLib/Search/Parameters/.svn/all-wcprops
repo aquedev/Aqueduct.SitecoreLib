@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters
+END
+DateRangeSearchParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters/DateRangeSearchParam.cs
+END
+NumericRangeSearchParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters/NumericRangeSearchParam.cs
+END
+SearchParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters/SearchParam.cs
+END
+FieldValueSearchParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters/FieldValueSearchParam.cs
+END
+FieldSearchParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/45/trunk/Aqueduct.SitecoreLib/Search/Parameters/FieldSearchParam.cs
+END

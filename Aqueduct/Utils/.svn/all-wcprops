@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils
+END
+AssertionFailedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/AssertionFailedException.cs
+END
+CSVService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/CSVService.cs
+END
+FileCSVService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/FileCSVService.cs
+END
+EnumComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/EnumComparer.cs
+END
+TextWriterCSVService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/TextWriterCSVService.cs
+END
+GeoSearchService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/GeoSearchService.cs
+END
+BaseConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/BaseConverter.cs
+END
+Guard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/Guard.cs
+END
+HashService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Utils/HashService.cs
+END

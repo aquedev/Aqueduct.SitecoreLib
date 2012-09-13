@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities
+END
+IdHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/IdHelper.cs
+END
+ItemUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/ItemUtil.cs
+END
+QueryTranslator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/QueryTranslator.cs
+END
+SearchHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/SearchHelper.cs
+END
+SearchField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/SearchField.cs
+END
+SkinnyItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/Utilities/SkinnyItem.cs
+END

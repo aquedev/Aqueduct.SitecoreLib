@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers
+END
+ExtendedFieldCrawlerFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers/ExtendedFieldCrawlerFactory.cs
+END
+NumberFieldCrawler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers/NumberFieldCrawler.cs
+END
+LookupFieldCrawler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers/LookupFieldCrawler.cs
+END
+DateFieldCrawler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers/DateFieldCrawler.cs
+END
+DefaultFieldCrawler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/FieldCrawlers/DefaultFieldCrawler.cs
+END

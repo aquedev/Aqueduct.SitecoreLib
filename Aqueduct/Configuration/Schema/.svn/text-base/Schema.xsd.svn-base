@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="http://schemas.lemonpreview.com/Configuration"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  xmlns:conf="http://schemas.lemonpreview.com/Configuration"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  >
+  <xs:simpleType name="ApplicationModeEnum">
+    <xs:annotation>
+      <xs:documentation>
+        Enum that contains the values for the possible application modes
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Auto" />
+      <xs:enumeration value="Development" />
+      <xs:enumeration value="Staging" />
+      <xs:enumeration value="Live" />
+      <xs:enumeration value="Disabled" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="Settings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="section">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="servers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="server" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="setting">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+                  </xs:sequence>
+                  <xs:attribute name="key" type="xs:string" use="required" />
+                  <xs:attribute name="value" type="xs:string" use="optional" />
+                  <xs:attribute name="type" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required" />
+            <xs:attribute name="mode" type="conf:ApplicationModeEnum" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  
+</xs:schema>

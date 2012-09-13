@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Loaders/Xml
+END
+XmlConfigurationLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Loaders/Xml/XmlConfigurationLoader.cs
+END
+XmlSectionParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Loaders/Xml/XmlSectionParser.cs
+END

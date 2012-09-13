@@ -1,0 +1,80 @@
+10
+
+dir
+213
+https://svn.lemonpreview.com/AqueductLib/trunk/Aqueduct.SitecoreLib/Search
+https://svn.lemonpreview.com/AqueductLib
+
+
+
+2011-03-01T10:59:28.645980Z
+46
+daniel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+521f70c5-1a6e-ce48-b1db-4ae3af6c4f7d
+
+Searcher.cs
+file
+
+
+
+
+2011-11-21T10:18:19.306676Z
+ba7b06f0dcd916b46ab4b9bbdc19365a
+2011-03-01T10:59:28.645980Z
+46
+daniel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12720
+
+Crawlers
+dir
+
+Parameters
+dir
+
+FieldCrawlers
+dir
+
+DynamicFields
+dir
+
+Utilities
+dir
+
+Constants
+dir
+

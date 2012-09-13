@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/145/trunk/Aqueduct.SitecoreLib/Indexing
+END
+ComparisonType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/ComparisonType.cs
+END
+SearchIndex.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/SearchIndex.cs
+END
+GuidSearchUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/GuidSearchUtils.cs
+END
+IndexFieldNames.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/IndexFieldNames.cs
+END
+PagingResultList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/PagingResultList.cs
+END
+SearchQueryContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/AqueductLib/!svn/ver/145/trunk/Aqueduct.SitecoreLib/Indexing/SearchQueryContext.cs
+END
+SearchIndexer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/SearchIndexer.cs
+END
+QueryHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/Indexing/QueryHelper.cs
+END
+QueryContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/145/trunk/Aqueduct.SitecoreLib/Indexing/QueryContext.cs
+END

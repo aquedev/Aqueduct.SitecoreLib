@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13897D69-8FE0-402A-BDEB-C2E1CA40722F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aqueduct.SitecoreLib</RootNamespace>
+    <AssemblyName>Aqueduct.SitecoreLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\$(TargetFrameworkVersion)</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\$(TargetFrameworkVersion)</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\$(TargetFrameworkVersion)</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppfailReporting">
+      <HintPath>..\lib\AppfailReporting.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net, Version=2.3.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomFields\TextDropList.cs" />
+    <Compile Include="DataAccess\Caches\CallContextLevelCache.cs" />
+    <Compile Include="DataAccess\Caches\HttpContextLevelCache.cs" />
+    <Compile Include="DataAccess\Caches\HybridContextLevelCache.cs" />
+    <Compile Include="DataAccess\ConcreteTypeNeededEventArgs.cs" />
+    <Compile Include="DataAccess\ICrudRepository.cs" />
+    <Compile Include="DataAccess\DataAccessLogger.cs" />
+    <Compile Include="DataAccess\DataAccessStatistics.cs" />
+    <Compile Include="DataAccess\EntityUniqueKey.cs" />
+    <Compile Include="DataAccess\EntityCache.cs" />
+    <Compile Include="DataAccess\IDomainEntityRepository.cs" />
+    <Compile Include="DataAccess\MapEntryBuilder.cs" />
+    <Compile Include="DataAccess\Maps\FileMap.cs" />
+    <Compile Include="DataAccess\Maps\ImageMap.cs" />
+    <Compile Include="DataAccess\Repositories\ReadOnlyRepository.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\DateCreatedResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\DateModifiedResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\ISitecoreResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\ItemNameResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\LinkedFieldItemNameResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\SortorderResolver.cs" />
+    <Compile Include="DataAccess\StructureMap\MapConventionScanner.cs" />
+    <Compile Include="DataAccess\ValueResolvers\ChildrenListResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\EnumValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\ConvertibleValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\FileValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\GuidValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\ImageValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\LinkValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\DomainEntityListResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\MultiListValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\NullableResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\ResolverHelper.cs" />
+    <Compile Include="DataAccess\ValueResolvers\ValuesListResolver.cs" />
+    <Compile Include="Domain\DomainEntity.cs" />
+    <Compile Include="Domain\File.cs" />
+    <Compile Include="Domain\Image.cs" />
+    <Compile Include="EventHandlers\SitecoreEvents.cs" />
+    <Compile Include="EventHandlers\SitecoreEventsHandlerInitialisater.cs" />
+    <Compile Include="Indexing\ComparisonType.cs" />
+    <Compile Include="Indexing\GuidSearchUtils.cs" />
+    <Compile Include="Indexing\IndexFieldNames.cs" />
+    <Compile Include="Indexing\PagingResultList.cs" />
+    <Compile Include="Indexing\QueryContext.cs" />
+    <Compile Include="Indexing\QueryHelper.cs" />
+    <Compile Include="Indexing\SearchIndex.cs" />
+    <Compile Include="Indexing\SearchIndexer.cs" />
+    <Compile Include="Indexing\SearchQueryContext.cs" />
+    <Compile Include="ItemFinderCriteria\AndCompositeItemFinderCriterion.cs" />
+    <Compile Include="DataAccess\DomainEntityRepository.cs" />
+    <Compile Include="DataAccess\DomainEntityPropertyResolver.cs" />
+    <Compile Include="DataAccess\SitecoreDataAccess.cs" />
+    <Compile Include="DataAccess\StructureMap\SitecoreLibRegistry.cs" />
+    <Compile Include="DataAccess\IMap.cs" />
+    <Compile Include="DataAccess\IValueResolver.cs" />
+    <Compile Include="DataAccess\Map.cs" />
+    <Compile Include="DataAccess\MapEntry.cs" />
+    <Compile Include="DataAccess\MapFinder.cs" />
+    <Compile Include="DataAccess\StructureMap\MapTemplatePathScanner.cs" />
+    <Compile Include="DataAccess\Repository.cs" />
+    <Compile Include="DataAccess\ValueResolvers\BooleanValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\DateValueResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\DefaultResolver.cs" />
+    <Compile Include="DataAccess\ValueResolvers\DomainEntityValueResolver.cs" />
+    <Compile Include="Databases.cs" />
+    <Compile Include="ItemFinderCriteria\DateItemFinderCriterion.cs" />
+    <Compile Include="FieldRendererArgs.cs" />
+    <Compile Include="FieldRendererProxy.cs" />
+    <Compile Include="ItemFinderCriteria\DateCriteriaBuilder.cs" />
+    <Compile Include="ItemFinderCriteria\IItemFinderCriterion.cs" />
+    <Compile Include="LinkUrl.cs" />
+    <Compile Include="MVP\SitecoreMVPUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Packaging\PackageInfo.cs" />
+    <Compile Include="Packaging\PackageXml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registries\SitecoreRegistry.cs" />
+    <Compile Include="Search\Constants\IndexConstants.cs" />
+    <Compile Include="Search\Crawlers\AdvancedDatabaseCrawler.cs" />
+    <Compile Include="Search\DynamicFields\BaseDynamicField.cs" />
+    <Compile Include="Search\DynamicFields\FullPathField.cs" />
+    <Compile Include="Search\DynamicFields\HasExplicitDeniesField.cs" />
+    <Compile Include="Search\DynamicFields\HasLayoutField.cs" />
+    <Compile Include="Search\DynamicFields\IconField.cs" />
+    <Compile Include="Search\DynamicFields\IsApprovedField.cs" />
+    <Compile Include="Search\DynamicFields\IsInWorkflowField.cs" />
+    <Compile Include="Search\DynamicFields\IsLockedField.cs" />
+    <Compile Include="Search\DynamicFields\LinksField.cs" />
+    <Compile Include="Search\DynamicFields\LockDateField.cs" />
+    <Compile Include="Search\DynamicFields\LockUserNameField.cs" />
+    <Compile Include="Search\DynamicFields\ShortTemplateIdField.cs" />
+    <Compile Include="Search\DynamicFields\TemplateNameField.cs" />
+    <Compile Include="Search\DynamicFields\WorkflowField.cs" />
+    <Compile Include="Search\DynamicFields\WorkflowStateField.cs" />
+    <Compile Include="Search\FieldCrawlers\DateFieldCrawler.cs" />
+    <Compile Include="Search\FieldCrawlers\DefaultFieldCrawler.cs" />
+    <Compile Include="Search\FieldCrawlers\ExtendedFieldCrawlerFactory.cs" />
+    <Compile Include="Search\FieldCrawlers\LookupFieldCrawler.cs" />
+    <Compile Include="Search\FieldCrawlers\NumberFieldCrawler.cs" />
+    <Compile Include="Search\Parameters\DateRangeSearchParam.cs" />
+    <Compile Include="Search\Parameters\FieldSearchParam.cs" />
+    <Compile Include="Search\Parameters\FieldValueSearchParam.cs" />
+    <Compile Include="Search\Parameters\NumericRangeSearchParam.cs" />
+    <Compile Include="Search\Parameters\SearchParam.cs" />
+    <Compile Include="Search\Searcher.cs" />
+    <Compile Include="Search\Utilities\IdHelper.cs" />
+    <Compile Include="Search\Utilities\ItemUtil.cs" />
+    <Compile Include="Search\Utilities\QueryTranslator.cs" />
+    <Compile Include="Search\Utilities\SearchField.cs" />
+    <Compile Include="Search\Utilities\SearchHelper.cs" />
+    <Compile Include="Search\Utilities\SkinnyItem.cs" />
+    <Compile Include="SitecoreConfigLoader.cs" />
+    <Compile Include="SitecoreItemExtensions.cs" />
+    <Compile Include="ItemFinderCriteria\SitecoreItemFinder.cs" />
+    <Compile Include="SortOrder.cs" />
+    <Compile Include="SublayoutHelper.cs" />
+    <Compile Include="TreeCrawler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SitecorePackages\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aqueduct.SitecoreLib.1.0.nuspec" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aqueduct\Aqueduct.csproj">
+      <Project>{A7D9994E-75BD-4B10-8D11-7DDBE320AE8D}</Project>
+      <Name>Aqueduct</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild" Condition="'$(TargetFrameworkVersion)' == 'v4.0'">
+    <Message Text="Compiling under .Net v3.5" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Properties="TargetFrameworkVersion=v3.5" RunEachTargetSeparately="true" Targets="Rebuild" />
+  </Target>
+</Project>

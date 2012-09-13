@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Helpers
+END
+ExpressionHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Helpers/ExpressionHelper.cs
+END
+XmlExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Helpers/XmlExtensions.cs
+END
+XmlHelpers.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Helpers/XmlHelpers.cs
+END
+EnumExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/48/trunk/Aqueduct/Helpers/EnumExtensions.cs
+END
+StringExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Helpers/StringExtensions.cs
+END
+EnumHelpers.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Helpers/EnumHelpers.cs
+END

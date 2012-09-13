@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Caching
+END
+ICache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Caching/ICache.cs
+END
+NullCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Caching/NullCache.cs
+END
+StandardWebCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Caching/StandardWebCache.cs
+END
+ICacheFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Caching/ICacheFactory.cs
+END

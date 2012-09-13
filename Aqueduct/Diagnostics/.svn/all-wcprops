@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/AqueductLib/!svn/ver/205/trunk/Aqueduct/Diagnostics
+END
+StatisticsResults.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/StatisticsResults.cs
+END
+Logger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/Logger.cs
+END
+StaticStatisticsStore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/StaticStatisticsStore.cs
+END
+AppLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/205/trunk/Aqueduct/Diagnostics/AppLogger.cs
+END
+IStatisticsStore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/IStatisticsStore.cs
+END
+Lemon.Diagnostics.cd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/Lemon.Diagnostics.cd
+END
+BaseStatisticsStore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/BaseStatisticsStore.cs
+END
+ILogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/ILogger.cs
+END
+Log4NetInitialiser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Diagnostics/Log4NetInitialiser.cs
+END
+NullLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/NullLogger.cs
+END
+Statistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Diagnostics/Statistics.cs
+END

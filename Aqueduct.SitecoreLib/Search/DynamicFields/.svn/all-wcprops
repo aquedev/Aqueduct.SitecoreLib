@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields
+END
+ShortTemplateIdField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/ShortTemplateIdField.cs
+END
+HasLayoutField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/HasLayoutField.cs
+END
+WorkflowField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/WorkflowField.cs
+END
+WorkflowStateField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/WorkflowStateField.cs
+END
+TemplateNameField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/TemplateNameField.cs
+END
+IsApprovedField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/IsApprovedField.cs
+END
+FullPathField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/FullPathField.cs
+END
+BaseDynamicField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/BaseDynamicField.cs
+END
+LinksField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/LinksField.cs
+END
+LockDateField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/LockDateField.cs
+END
+LockUserNameField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/LockUserNameField.cs
+END
+IconField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/IconField.cs
+END
+IsLockedField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/IsLockedField.cs
+END
+IsInWorkflowField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/IsInWorkflowField.cs
+END
+HasExplicitDeniesField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/44/trunk/Aqueduct.SitecoreLib/Search/DynamicFields/HasExplicitDeniesField.cs
+END

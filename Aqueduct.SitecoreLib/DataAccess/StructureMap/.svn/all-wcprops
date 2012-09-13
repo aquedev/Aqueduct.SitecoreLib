@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/AqueductLib/!svn/ver/97/trunk/Aqueduct.SitecoreLib/DataAccess/StructureMap
+END
+SitecoreLibRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/97/trunk/Aqueduct.SitecoreLib/DataAccess/StructureMap/SitecoreLibRegistry.cs
+END
+MapTemplatePathScanner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/AqueductLib/!svn/ver/64/trunk/Aqueduct.SitecoreLib/DataAccess/StructureMap/MapTemplatePathScanner.cs
+END
+MapConventionScanner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/AqueductLib/!svn/ver/97/trunk/Aqueduct.SitecoreLib/DataAccess/StructureMap/MapConventionScanner.cs
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/AqueductLib/!svn/ver/211/trunk/Aqueduct/Web
+END
+RequestParams.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/RequestParams.cs
+END
+InitialisationAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/InitialisationAction.cs
+END
+WebApplicationInitialiser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/WebApplicationInitialiser.cs
+END
+MVPUserControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/60/trunk/Aqueduct/Web/MVPUserControl.cs
+END
+WebContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Web/WebContext.cs
+END
+CookieManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/135/trunk/Aqueduct/Web/CookieManager.cs
+END
+InitialisationStage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/InitialisationStage.cs
+END
+WebApplicationInitialiserModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/WebApplicationInitialiserModule.cs
+END
+RequestHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/RequestHelper.cs
+END
+InitialisationActionList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Web/InitialisationActionList.cs
+END

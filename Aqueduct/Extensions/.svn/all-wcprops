@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Extensions
+END
+ResponseExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ResponseExtensions.cs
+END
+ExpressionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ExpressionExtensions.cs
+END
+XmlExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/XmlExtensions.cs
+END
+NumericExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/NumericExtensions.cs
+END
+EnumExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Extensions/EnumExtensions.cs
+END
+ComparableExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ComparableExtensions.cs
+END
+StringExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/StringExtensions.cs
+END
+ObjectExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ObjectExtensions.cs
+END
+DateExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/DateExtensions.cs
+END
+CharExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/CharExtensions.cs
+END
+ControlExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ControlExtensions.cs
+END
+IO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/IO.cs
+END
+RegexPattern.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/RegexPattern.cs
+END
+GuidExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/GuidExtensions.cs
+END
+Infector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/Infector.cs
+END
+ValidationExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Extensions/ValidationExtensions.cs
+END

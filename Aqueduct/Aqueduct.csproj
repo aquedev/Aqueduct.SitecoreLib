@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7D9994E-75BD-4B10-8D11-7DDBE320AE8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aqueduct</RootNamespace>
+    <AssemblyName>Aqueduct</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\$(TargetFrameworkVersion)</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\$(TargetFrameworkVersion)</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppfailReporting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\AppfailReporting.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caching\ICache.cs" />
+    <Compile Include="Caching\ICacheFactory.cs" />
+    <Compile Include="Caching\NullCache.cs" />
+    <Compile Include="Caching\StandardWebCache.cs" />
+    <Compile Include="Common\ApplicationMode.cs" />
+    <Compile Include="Common\CachePriority.cs" />
+    <Compile Include="Common\FileChangeNotifier.cs" />
+    <Compile Include="Common\Context\AppContext.cs" />
+    <Compile Include="Common\Context\BaseContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Context\IApplicationModeLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Context\IContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Context\ModeLoaders\AutoApplicationModeLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Context\ModeLoaders\FileApplicationModeLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Context\NullContext.cs" />
+    <Compile Include="Common\CurrentCultureIgnoreCaseEqualityComparer.cs" />
+    <Compile Include="Common\DelayedExecutor.cs" />
+    <Compile Include="Common\FileWatcher.cs" />
+    <Compile Include="Configuration\ConfigGuard.cs" />
+    <Compile Include="Configuration\IConfigurationHandler.cs" />
+    <Compile Include="Configuration\InvalidTypeException.cs" />
+    <Compile Include="Configuration\ISettingsList.cs" />
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Configuration\Loaders\ConfigurationFileLocator.cs" />
+    <Compile Include="Configuration\Loaders\ConfigurationLoader.cs" />
+    <Compile Include="Configuration\ConfigurationException.cs" />
+    <Compile Include="Configuration\Loaders\IConfigurationFileLocator.cs" />
+    <Compile Include="Configuration\Loaders\IConfigurationLoader.cs" />
+    <Compile Include="Configuration\Loaders\SettingsConfigurationLoader.cs" />
+    <Compile Include="Configuration\NullSection.cs" />
+    <Compile Include="Configuration\Parsers\BooleanSettingParser.cs" />
+    <Compile Include="Configuration\Parsers\GuidSettingParser.cs" />
+    <Compile Include="Configuration\Parsers\ListSettingParser.cs" />
+    <Compile Include="Configuration\Parsers\SettingParsersResolver.cs" />
+    <Compile Include="Configuration\Parsers\SystemTypesSettingParser.cs" />
+    <Compile Include="Configuration\Processors\ISettingsProcessor.cs" />
+    <Compile Include="Configuration\ReadOnlySetting.cs" />
+    <Compile Include="Configuration\ReadOnlySettings.cs" />
+    <Compile Include="Configuration\Section.cs" />
+    <Compile Include="Configuration\SectionList.cs" />
+    <Compile Include="Configuration\SettingNotProcessedException.cs" />
+    <Compile Include="Configuration\SettingParseInvalidTypeException.cs" />
+    <Compile Include="Configuration\Processors\CircularReplacementException.cs" />
+    <Compile Include="Configuration\SettingNotFoundException.cs" />
+    <Compile Include="Configuration\Validators\ISettingValidator.cs" />
+    <Compile Include="Configuration\Validators\OverridesValidator.cs" />
+    <Compile Include="Configuration\Validators\ValidationException.cs" />
+    <Compile Include="DataAccess\ISitecoreDataAccessSettings.cs" />
+    <Compile Include="Diagnostics\BaseStatisticsStore.cs" />
+    <Compile Include="Diagnostics\StaticStatisticsStore.cs" />
+    <Compile Include="Diagnostics\Statistics.cs" />
+    <Compile Include="Diagnostics\ILogger.cs" />
+    <Compile Include="Diagnostics\AppLogger.cs" />
+    <Compile Include="Diagnostics\IStatisticsStore.cs" />
+    <Compile Include="Diagnostics\Log4NetInitialiser.cs" />
+    <Compile Include="Diagnostics\Logger.cs" />
+    <Compile Include="Diagnostics\NullLogger.cs" />
+    <Compile Include="Diagnostics\StatisticsResults.cs" />
+    <Compile Include="Domain\ISitecoreDomainEntity.cs" />
+    <Compile Include="Common\LazyList.cs" />
+    <Compile Include="Domain\Link.cs" />
+    <Compile Include="Domain\LinkTypes.cs" />
+    <Compile Include="Extensions\CharExtensions.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\ComparableExtensions.cs" />
+    <Compile Include="Extensions\ControlExtensions.cs" />
+    <Compile Include="Extensions\DateExtensions.cs" />
+    <Compile Include="Extensions\ExpressionExtensions.cs" />
+    <Compile Include="Extensions\GuidExtensions.cs" />
+    <Compile Include="Extensions\Infector.cs" />
+    <Compile Include="Extensions\IO.cs" />
+    <Compile Include="Extensions\NumericExtensions.cs" />
+    <Compile Include="Extensions\RegexPattern.cs" />
+    <Compile Include="Extensions\ResponseExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\ValidationExtensions.cs" />
+    <Compile Include="Extensions\XmlExtensions.cs" />
+    <Compile Include="Helpers\EnumExtensions.cs" />
+    <Compile Include="Helpers\EnumHelpers.cs" />
+    <Compile Include="Helpers\ExpressionHelper.cs" />
+    <Compile Include="Helpers\StringExtensions.cs" />
+    <Compile Include="Helpers\XmlExtensions.cs" />
+    <Compile Include="Helpers\XmlHelpers.cs" />
+    <Compile Include="Configuration\Converter\TypeConverter.cs" />
+    <Compile Include="Configuration\ISettingParser.cs" />
+    <Compile Include="Configuration\ConfigurationHandler.cs" />
+    <Compile Include="Configuration\Loaders\SettingEventArgs.cs" />
+    <Compile Include="Configuration\Loaders\Xml\XmlConfigurationLoader.cs" />
+    <Compile Include="Configuration\Loaders\Xml\XmlSectionParser.cs" />
+    <Compile Include="Configuration\Processors\ReplacementProcessor.cs" />
+    <Compile Include="Configuration\Setting.cs" />
+    <Compile Include="Configuration\Settings.cs" />
+    <Compile Include="Mail\IEmail.cs" />
+    <Compile Include="Mail\IEmailService.cs" />
+    <Compile Include="Mail\IMailService.cs" />
+    <Compile Include="Mail\MailMessage.cs" />
+    <Compile Include="Mail\EmailUser.cs" />
+    <Compile Include="Mail\FileAttachment.cs" />
+    <Compile Include="Mail\FileDummyEmail.cs" />
+    <Compile Include="Mail\HtmlMailMessage.cs" />
+    <Compile Include="Mail\Attachment.cs" />
+    <Compile Include="Mail\LoggingMailMessage.cs" />
+    <Compile Include="Mail\MailMessageSendingEventArgs.cs" />
+    <Compile Include="Mail\MailMessageSentEventArgs.cs" />
+    <Compile Include="Mail\SmtpServerInfo.cs" />
+    <Compile Include="Mail\StreamAttachment.cs" />
+    <Compile Include="Mail\TextMailMessage.cs" />
+    <Compile Include="Net\IPAddressRange.cs" />
+    <Compile Include="Presentation\AbstractPresenter.cs" />
+    <Compile Include="Presentation\IAbstractView.cs" />
+    <Compile Include="Presentation\ISitecoreView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registries\DefaultRegistry.cs" />
+    <Compile Include="Utils\AssertionFailedException.cs" />
+    <Compile Include="Utils\BaseConverter.cs" />
+    <Compile Include="Utils\CSVService.cs" />
+    <Compile Include="Utils\FileCSVService.cs" />
+    <Compile Include="Utils\GeoSearchService.cs" />
+    <Compile Include="Utils\Guard.cs" />
+    <Compile Include="Utils\HashService.cs" />
+    <Compile Include="Utils\EnumComparer.cs" />
+    <Compile Include="Utils\TextWriterCSVService.cs" />
+    <Compile Include="Web\Configuration\DefaultConfigInitialiser.cs" />
+    <Compile Include="Web\CookieManager.cs" />
+    <Compile Include="Web\Diagnostics\ContextStatisticsStore.cs" />
+    <Compile Include="Web\Diagnostics\TimingModule.cs" />
+    <Compile Include="Web\InitialisationAction.cs" />
+    <Compile Include="Web\InitialisationActionList.cs" />
+    <Compile Include="Web\InitialisationStage.cs" />
+    <Compile Include="Web\MVPUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\RequestHelper.cs" />
+    <Compile Include="Web\RequestParams.cs" />
+    <Compile Include="Web\Session\CookieAccessor.cs" />
+    <Compile Include="Web\Session\GenericSessionAccessor.cs" />
+    <Compile Include="Web\Session\Interfaces\ICookieAccessor.cs" />
+    <Compile Include="Web\Session\Interfaces\ISessionAccessor.cs" />
+    <Compile Include="Web\Session\SessionInfoBase.cs" />
+    <Compile Include="Web\WebApplicationInitialiser.cs" />
+    <Compile Include="Web\WebApplicationInitialiserModule.cs" />
+    <Compile Include="Web\WebContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\Schema\Schema.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aqueduct.1.0.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Diagnostics\Lemon.Diagnostics.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\UI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild" Condition="'$(TargetFrameworkVersion)' == 'v4.0'">
+    <CreateItem Include="@(ReferencePath)" Condition="'%(CopyLocal)'=='true'">
+      <Output TaskParameter="Include" ItemName="IlmergeAssemblies" />
+    </CreateItem>
+    <!-- We do an IL merge to avoid dependency problems (bloody log4net!) -->
+    <MakeDir Directories="bin\$(Configuration)\v4.0\Deploy" Condition="!Exists('bin\$(Configuration)\v4.0\Deploy')" />
+    <!-- <Exec Command="&quot;..\tools\ilmerge\ilmerge.exe&quot;  /internalize /targetplatform:v4,C:\Windows\Microsoft.NET\Framework\v4.0.30319  /out:bin\$(Configuration)\v4.0\Deploy\Aqueduct.dll bin\$(Configuration)\v4.0\Aqueduct.dll bin\$(Configuration)\v4.0\log4net.dll" />-->
+    <Exec Command="xcopy bin\$(Configuration)\v4.0\Deploy\Aqueduct.dll bin\$(Configuration)\v4.0\Aqueduct.dll /y" />
+    <Message Text="Compiling under .Net v3.5" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Properties="TargetFrameworkVersion=v3.5" RunEachTargetSeparately="true" Targets="Rebuild" />
+    <MakeDir Directories="bin\$(Configuration)\v3.5\Deploy" Condition="!Exists('bin\$(Configuration)\v3.5\Deploy')" />
+    <!-- <Exec Command="&quot;..\tools\ilmerge\ilmerge.exe&quot;  /internalize  /out:bin\$(Configuration)\v3.5\Deploy\Aqueduct.dll bin\$(Configuration)\v3.5\Aqueduct.dll bin\$(Configuration)\v3.5\log4net.dll" />-->
+    <Exec Command="xcopy bin\$(Configuration)\v3.5\Deploy\Aqueduct.dll bin\$(Configuration)\v3.5\Aqueduct.dll /y" />
+  </Target>
+</Project>

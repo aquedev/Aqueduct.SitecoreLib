@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Common
+END
+LazyList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/LazyList.cs
+END
+CurrentCultureIgnoreCaseEqualityComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/CurrentCultureIgnoreCaseEqualityComparer.cs
+END
+FileWatcher.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/FileWatcher.cs
+END
+CachePriority.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/CachePriority.cs
+END
+FileChangeNotifier.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/FileChangeNotifier.cs
+END
+DelayedExecutor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/DelayedExecutor.cs
+END
+ApplicationMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/ApplicationMode.cs
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/AqueductLib/!svn/ver/164/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers
+END
+LinkValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/LinkValueResolver.cs
+END
+ValuesListResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/ValuesListResolver.cs
+END
+NullableResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/NullableResolver.cs
+END
+DomainEntityListResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/DomainEntityListResolver.cs
+END
+DomainEntityValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/DomainEntityValueResolver.cs
+END
+EnumValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/EnumValueResolver.cs
+END
+ConvertibleValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/ConvertibleValueResolver.cs
+END
+DateValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/DateValueResolver.cs
+END
+BooleanValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/AqueductLib/!svn/ver/164/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/BooleanValueResolver.cs
+END
+FileValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/86/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/FileValueResolver.cs
+END
+ImageValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/AqueductLib/!svn/ver/126/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/ImageValueResolver.cs
+END
+ResolverHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/ResolverHelper.cs
+END
+MultiListValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/AqueductLib/!svn/ver/146/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/MultiListValueResolver.cs
+END
+ChildrenListResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/AqueductLib/!svn/ver/43/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/ChildrenListResolver.cs
+END
+DefaultResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/DefaultResolver.cs
+END
+GuidValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ValueResolvers/GuidValueResolver.cs
+END

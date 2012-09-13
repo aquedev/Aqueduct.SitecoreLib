@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/AqueductLib/!svn/ver/211/trunk/Aqueduct/Web/Session
+END
+CookieAccessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/70/trunk/Aqueduct/Web/Session/CookieAccessor.cs
+END
+GenericSessionAccessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/AqueductLib/!svn/ver/211/trunk/Aqueduct/Web/Session/GenericSessionAccessor.cs
+END
+SessionInfoBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/211/trunk/Aqueduct/Web/Session/SessionInfoBase.cs
+END

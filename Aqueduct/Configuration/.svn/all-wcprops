@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration
+END
+ReadOnlySetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ReadOnlySetting.cs
+END
+Setting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Setting.cs
+END
+IConfigurationHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/IConfigurationHandler.cs
+END
+SettingNotProcessedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/SettingNotProcessedException.cs
+END
+ConfigurationException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ConfigurationException.cs
+END
+ConfigGuard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ConfigGuard.cs
+END
+ReadOnlySettings.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ReadOnlySettings.cs
+END
+NullSection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/NullSection.cs
+END
+SectionList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/SectionList.cs
+END
+SettingParseInvalidTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/SettingParseInvalidTypeException.cs
+END
+Settings.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Settings.cs
+END
+ISettingParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ISettingParser.cs
+END
+Section.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Section.cs
+END
+Config.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Config.cs
+END
+ConfigurationHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ConfigurationHandler.cs
+END
+ISettingsList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/ISettingsList.cs
+END
+InvalidTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/InvalidTypeException.cs
+END
+SettingNotFoundException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/SettingNotFoundException.cs
+END

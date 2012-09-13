@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Common/Context/ModeLoaders
+END
+FileApplicationModeLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Common/Context/ModeLoaders/FileApplicationModeLoader.cs
+END
+AutoApplicationModeLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/Context/ModeLoaders/AutoApplicationModeLoader.cs
+END

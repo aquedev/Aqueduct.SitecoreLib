@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Aqueduct.SitecoreLib</id>
+    <version>0.0.1.0</version>
+    <title />
+    <authors>leec</authors>
+    <owners />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+    <summary />
+    <dependencies>
+      <dependency id="Aqueduct" version="1.0" />
+      <dependency id="Sitecore.Kernel" version="6.2" />
+      <dependency id="log4net" version="1.2.10" />
+      <dependency id="structuremap" version="2.6.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\v4.0\Aqueduct.SitecoreLib.dll" target="lib\net40\Aqueduct.SitecoreLib.dll" />
+    <file src="bin\Release\v3.5\Aqueduct.SitecoreLib.dll" target="lib\net35\Aqueduct.SitecoreLib.dll" />
+    <file src="Init.ps1" target="tools\Init.ps1" />
+    <file src="SitecorePackages\SitecoreMVC.zip" target="tools\SitecoreMVC.zip" />
+  </files>
+</package>

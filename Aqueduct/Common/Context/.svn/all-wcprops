@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Common/Context
+END
+IContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/Context/IContext.cs
+END
+BaseContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Common/Context/BaseContext.cs
+END
+NullContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/Context/NullContext.cs
+END
+AppContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/Context/AppContext.cs
+END
+IApplicationModeLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Common/Context/IApplicationModeLoader.cs
+END

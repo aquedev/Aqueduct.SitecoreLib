@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/64/trunk/Aqueduct.SitecoreLib/DataAccess/Caches
+END
+CallContextLevelCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/64/trunk/Aqueduct.SitecoreLib/DataAccess/Caches/CallContextLevelCache.cs
+END
+HttpContextLevelCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/AqueductLib/!svn/ver/64/trunk/Aqueduct.SitecoreLib/DataAccess/Caches/HttpContextLevelCache.cs
+END
+HybridContextLevelCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/AqueductLib/!svn/ver/64/trunk/Aqueduct.SitecoreLib/DataAccess/Caches/HybridContextLevelCache.cs
+END

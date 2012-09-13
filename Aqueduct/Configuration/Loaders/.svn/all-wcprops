@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Loaders
+END
+ConfigurationFileLocator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Loaders/ConfigurationFileLocator.cs
+END
+SettingEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Loaders/SettingEventArgs.cs
+END
+ConfigurationLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/AqueductLib/!svn/ver/85/trunk/Aqueduct/Configuration/Loaders/ConfigurationLoader.cs
+END
+SettingsConfigurationLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Loaders/SettingsConfigurationLoader.cs
+END
+IConfigurationFileLocator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Loaders/IConfigurationFileLocator.cs
+END
+IConfigurationLoader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Loaders/IConfigurationLoader.cs
+END

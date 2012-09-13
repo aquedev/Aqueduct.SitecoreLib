@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Validators
+END
+ISettingValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Validators/ISettingValidator.cs
+END
+OverridesValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Validators/OverridesValidator.cs
+END
+ValidationException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Validators/ValidationException.cs
+END

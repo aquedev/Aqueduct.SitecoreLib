@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/AqueductLib/!svn/ver/57/trunk/Aqueduct/Presentation
+END
+AbstractPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Presentation/AbstractPresenter.cs
+END
+ISitecoreView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/57/trunk/Aqueduct/Presentation/ISitecoreView.cs
+END
+IAbstractView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Presentation/IAbstractView.cs
+END

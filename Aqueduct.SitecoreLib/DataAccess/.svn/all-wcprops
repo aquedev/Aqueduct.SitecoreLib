@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/AqueductLib/!svn/ver/210/trunk/Aqueduct.SitecoreLib/DataAccess
+END
+EntityUniqueKey.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/EntityUniqueKey.cs
+END
+IDomainEntityRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/IDomainEntityRepository.cs
+END
+Map.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/Map.cs
+END
+Repository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/210/trunk/Aqueduct.SitecoreLib/DataAccess/Repository.cs
+END
+IMap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/IMap.cs
+END
+ConcreteTypeNeededEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/ConcreteTypeNeededEventArgs.cs
+END
+SitecoreDataAccess.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/SitecoreDataAccess.cs
+END
+DataAccessLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/DataAccessLogger.cs
+END
+DomainEntityPropertyResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/AqueductLib/!svn/ver/173/trunk/Aqueduct.SitecoreLib/DataAccess/DomainEntityPropertyResolver.cs
+END
+MapEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/MapEntry.cs
+END
+EntityCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/EntityCache.cs
+END
+DomainEntityRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/DomainEntityRepository.cs
+END
+MapFinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/MapFinder.cs
+END
+MapEntryBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/MapEntryBuilder.cs
+END
+DataAccessStatistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/DataAccessStatistics.cs
+END
+ICrudRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/AqueductLib/!svn/ver/169/trunk/Aqueduct.SitecoreLib/DataAccess/ICrudRepository.cs
+END
+IValueResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/AqueductLib/!svn/ver/36/trunk/Aqueduct.SitecoreLib/DataAccess/IValueResolver.cs
+END

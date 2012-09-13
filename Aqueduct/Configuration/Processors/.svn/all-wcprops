@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Processors
+END
+ReplacementProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Processors/ReplacementProcessor.cs
+END
+CircularReplacementException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Processors/CircularReplacementException.cs
+END
+ISettingsProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/AqueductLib/!svn/ver/29/trunk/Aqueduct/Configuration/Processors/ISettingsProcessor.cs
+END
