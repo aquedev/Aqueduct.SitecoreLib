@@ -1,7 +1,8 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RightWidgetArea.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="WidgetArea.ascx.cs"
     Inherits="Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Controls.WidgetArea" %>
-<%@ Register TagPrefix="safc" Namespace="SAFC.Site.layouts.Widgets" Assembly="SAFC.Site" %>
-<%@ Register TagPrefix="safc" Namespace="Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Controls.Widgets" Assembly="Aqueduct.SitecoreLib.Examples.SampleApplication.Web" %>
+
+<%@ Register TagPrefix="Aqueduct" Namespace="Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Controls.Widgets" Assembly="Aqueduct.SitecoreLib.Examples.SampleApplication.Web" %>
+
 <div id="relatedContent" class="aside span-3-col col">
     <aside>
         <header>
@@ -9,7 +10,7 @@
         </header>
         <asp:Repeater ID="rptWidgets" runat="server" OnItemDataBound="rptWidgets_ItemDataBound">
             <ItemTemplate>
-                <safc:WidgetRenderer ID="Renderer" runat="server"/>
+                <Aqueduct:WidgetRenderer ID="Renderer" runat="server"/>
             </ItemTemplate>
         </asp:Repeater>
     </aside>

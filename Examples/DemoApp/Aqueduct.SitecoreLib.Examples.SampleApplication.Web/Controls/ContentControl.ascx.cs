@@ -18,8 +18,8 @@ namespace Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Controls
             {
                 if (value.Any())
                 {
-                   // Widgets.Widgets = value;
-                    //Widgets.Visible = true;
+                    WidgetControl.Widgets = value;
+                    WidgetControl.Visible = true;
                 }
             }
         }

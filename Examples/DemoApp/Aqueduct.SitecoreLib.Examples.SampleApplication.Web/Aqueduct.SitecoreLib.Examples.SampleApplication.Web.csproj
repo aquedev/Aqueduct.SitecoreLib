@@ -142,6 +142,7 @@
     <Compile Include="Classes\MVPUserControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Classes\RenderingExtensions.cs" />
     <Compile Include="Controls\ContentControl.ascx.cs">
       <DependentUpon>ContentControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -190,12 +191,12 @@
     <Compile Include="layouts\MainLayout.aspx.designer.cs">
       <DependentUpon>MainLayout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\RightWidgetArea.ascx.cs">
-      <DependentUpon>RightWidgetArea.ascx</DependentUpon>
+    <Compile Include="Controls\WidgetArea.ascx.cs">
+      <DependentUpon>WidgetArea.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\RightWidgetArea.ascx.designer.cs">
-      <DependentUpon>RightWidgetArea.ascx</DependentUpon>
+    <Compile Include="Controls\WidgetArea.ascx.designer.cs">
+      <DependentUpon>WidgetArea.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -216,7 +217,7 @@
     <Content Include="Global.asax" />
     <Content Include="Controls\ContentControl.ascx" />
     <Content Include="layouts\MainLayout.aspx" />
-    <Content Include="Controls\RightWidgetArea.ascx" />
+    <Content Include="Controls\WidgetArea.ascx" />
     <Content Include="layouts\system\VisitorIdentification.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -254,7 +255,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="layouts\SampleApplication\Structure\" />
     <Folder Include="layouts\Shared\" />
     <Folder Include="xsl\WebEdit\System\" />
   </ItemGroup>
@@ -262,6 +262,10 @@
     <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.Business\Aqueduct.SitecoreLib.Examples.SampleApplication.Business.csproj">
       <Project>{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}</Project>
       <Name>Aqueduct.SitecoreLib.Examples.SampleApplication.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess\Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess.csproj">
+      <Project>{00A360F7-669F-49B5-9933-F4A1E6D5D264}</Project>
+      <Name>Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation\Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation.csproj">
       <Project>{B684904C-AB75-405E-BDDA-9A6902366B7A}</Project>

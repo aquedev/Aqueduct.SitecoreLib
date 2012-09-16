@@ -1,0 +1,1134 @@
+22548 23:36:55 WARN  Could not create an instance of the counter 'Reflection.MethodsInvoked' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Reflection.ObjectsCreated' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Reflection.ObjectsNotCreated' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Reflection.TypesResolved' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Reflection.TypesNotResolved' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Threading.BackgroundThreadsStarted' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Threading.ThreadDataModified' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Threading.ThreadDataRead' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Logging.AuditsLogged' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Logging.ErrorsLogged' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Logging.FatalsLogged' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Logging.InformationsLogged' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 WARN  Could not create an instance of the counter 'Logging.WarningsLogged' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:55 INFO  Heartbeat - Initializing
+22548 23:36:55 INFO  Heartbeat - Interval set to: 00:00:02
+22548 23:36:55 INFO  Heartbeat - Worker thread started
+22548 23:36:55 INFO  Cache created: 'DeviceItemsCache' (max size: 10MB, running total: 10MB)
+22548 23:36:55 INFO  Cache created: 'web[data]' (max size: 20MB, running total: 30MB)
+22548 23:36:55 INFO  Cache created: 'web[items]' (max size: 10MB, running total: 40MB)
+22548 23:36:55 INFO  Cache created: 'web[paths]' (max size: 500KB, running total: 40MB)
+22548 23:36:55 INFO  Cache created: 'web[standardValues]' (max size: 500KB, running total: 40MB)
+22548 23:36:55 INFO  Cache created: 'web[blobIDs]' (max size: 500KB, running total: 41MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'core[data]' (max size: 20MB, running total: 61MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'core[items]' (max size: 10MB, running total: 71MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'core[paths]' (max size: 500KB, running total: 71MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'core[standardValues]' (max size: 500KB, running total: 72MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'core[blobIDs]' (max size: 500KB, running total: 72MB)
+22548 23:36:55 WARN  Could not create an instance of the counter 'Events.EventsRaised' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'master[data]' (max size: 20MB, running total: 92MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'master[items]' (max size: 10MB, running total: 102MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'master[paths]' (max size: 500KB, running total: 103MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'master[standardValues]' (max size: 500KB, running total: 103MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'master[blobIDs]' (max size: 500KB, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'filesystem[data]' (max size: 0 bytes, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'filesystem[items]' (max size: 0 bytes, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'filesystem[paths]' (max size: 0 bytes, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'filesystem[standardValues]' (max size: 0 bytes, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'filesystem[blobIDs]' (max size: 500KB, running total: 104MB)
+ManagedPoolThread #0 23:36:55 INFO  Cache created: 'SqlDataProvider - Property data(core)' (max size: 500KB, running total: 105MB)
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'CacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'CacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'CacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'DataCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'DataCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'DataCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'HtmlCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'HtmlCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'HtmlCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'PathCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'PathCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'PathCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'RegistryCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'RegistryCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'RegistryCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'ViewStateCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'ViewStateCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'ViewStateCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'XslCacheClearings' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'XslCacheHits' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'XslCacheMisses' (category: 'Sitecore.Caching')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'Data.ClientDataReads' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'Data.ClientDataWrites' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'Data.ItemsAccessed' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'Data.PhysicalReads' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:55 WARN  Could not create an instance of the counter 'Data.PhysicalWrites' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 23:36:56 INFO  Cache created: 'SqlDataProvider - Property data(master)' (max size: 500KB, running total: 105MB)
+ManagedPoolThread #0 23:36:56 INFO  Cache created: 'SqlDataProvider - Property data(web)' (max size: 500KB, running total: 106MB)
+22548 23:36:56 INFO  HttpModule is being initialized
+22548 23:36:56 WARN  Could not create an instance of the counter 'Pipelines.PipelinesAborted' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 WARN  Could not create an instance of the counter 'Pipelines.PipelinesExecuted' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 WARN  Could not create an instance of the counter 'Pipelines.ProcessorsExecuted' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  **********************************************************************
+22548 23:36:56 INFO  **********************************************************************
+22548 23:36:56 INFO  Sitecore started
+22548 23:36:56 INFO  Sitecore.NET 6.5.0 (rev. 120706)
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\bin\Sitecore.Client.dll (Sitecore CMS, Sitecore Client Application, 6.5.0 rev. 120706)
+22548 23:36:56 INFO  D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\bin\Sitecore.Kernel.dll (Sitecore CMS, Sitecore CMS Kernel Library, 6.5.0 rev. 120706)
+22548 23:36:56 INFO  D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\bin\Sitecore.Nexus.dll (Sitecore Nexus, Sitecore Nexus rev. 100811, Sitecore Nexus rev. 100811)
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Operating system Microsoft Windows NT 6.1.7601 Service Pack 1
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Microsoft.NET version 4.0.30319.269
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Process id: 26124
+22548 23:36:56 INFO  Windows identity used by the process: IIS APPPOOL\sitecorelib.local. Impersonation: False
+22548 23:36:56 INFO  Managed pipeline mode: Integrated
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  EventQueues enabled: True
+22548 23:36:56 INFO  Instance Name:AQUE-PC-51-sitecorelib.local
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Threshold settings
+22548 23:36:56 INFO    Show threshold warnings: False
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Databases
+22548 23:36:56 INFO    core
+22548 23:36:56 INFO    master
+22548 23:36:56 INFO    web
+22548 23:36:56 INFO    filesystem
+22548 23:36:56 INFO  
+22548 23:36:56 INFO  Domains
+22548 23:36:56 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+22548 23:36:56 INFO    sitecore
+22548 23:36:56 INFO    extranet
+22548 23:36:56 INFO    default
+22548 23:36:56 INFO  **********************************************************************
+22548 23:36:56 INFO  **********************************************************************
+22548 23:36:56 INFO  Attempting to get ASP.NET process history
+22548 23:36:56 WARN  No process history available
+22548 23:36:56 INFO  Cache created: 'LanguageProvider - Languages' (max size: 100KB, running total: 106MB)
+22548 23:36:56 WARN  Could not create an instance of the counter 'Globalization.TextsTranslated' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 WARN  Could not create an instance of the counter 'Globalization.TranslateFailed' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 INFO  Loading Dictionary from cache
+22548 23:36:56 INFO  MemoryMonitor initialized. Threshold: 800 MB. Interval: 00:00:05
+22548 23:36:56 WARN  Could not create an instance of the counter 'Xml.ItemNavigatorsCreated' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 WARN  Could not create an instance of the counter 'Xml.PacketsCreated' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+22548 23:36:56 INFO  Scheduler - Initializing
+22548 23:36:56 INFO  Cache created: 'UserProfileCache' (max size: 1MB, running total: 107MB)
+22548 23:36:56 INFO  Scheduler - Interval set to: 00:05:00
+22548 23:36:56 INFO  Scheduler - Worker thread started
+22548 23:36:56 ERROR WebDAV License file 'D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\data\webdav.lic' not found.
+27280 23:36:56 INFO  HttpModule is being initialized
+27280 23:36:56 INFO  Cache created: 'shell[html]' (max size: 0 bytes, running total: 107MB)
+27280 23:36:56 INFO  Cache created: 'ProxyProvider' (max size: 500KB, running total: 107MB)
+27280 23:36:56 INFO  Cache created: 'SqlDataProvider - Prefetch data(core)' (max size: 10MB, running total: 117MB)
+27280 23:36:56 INFO  Cache created: 'ItemCloningRelations' (max size: 10MB, running total: 127MB)
+27280 23:36:56 INFO  Cache created: 'AccessResultCache' (max size: 2MB, running total: 129MB)
+27280 23:36:56 WARN  Could not create an instance of the counter 'AccessDenied' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'AccessGranted' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'AccessResolved' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'ModifyRequests' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'ProgrammaticDisabling' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'ProgrammaticEnabling' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'ProgrammaticUserSwitch' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'ReadRequests' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'UsersResolved' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'RolesResolved' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:56 WARN  Could not create an instance of the counter 'VirtualUsersBuilt' (category: 'Sitecore.Security')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 INFO  Cache created: 'shell[registry]' (max size: 3MB, running total: 132MB)
+27280 23:36:57 INFO  Cache created: 'shell[viewstate]' (max size: 200KB, running total: 133MB)
+27280 23:36:57 INFO  Cache created: 'shell[xsl]' (max size: 5MB, running total: 138MB)
+27280 23:36:57 INFO  Cache created: 'shell[filtered items]' (max size: 2MB, running total: 140MB)
+27280 23:36:57 INFO  Cache created: 'login[html]' (max size: 0 bytes, running total: 140MB)
+27280 23:36:57 INFO  Cache created: 'login[registry]' (max size: 5MB, running total: 145MB)
+27280 23:36:57 INFO  Cache created: 'login[viewstate]' (max size: 5MB, running total: 150MB)
+27280 23:36:57 INFO  Cache created: 'login[xsl]' (max size: 10MB, running total: 160MB)
+27280 23:36:57 INFO  Cache created: 'login[filtered items]' (max size: 2MB, running total: 162MB)
+27280 23:36:57 INFO  Cache created: 'admin[html]' (max size: 0 bytes, running total: 162MB)
+27280 23:36:57 INFO  Cache created: 'admin[registry]' (max size: 5MB, running total: 167MB)
+27280 23:36:57 INFO  Cache created: 'admin[viewstate]' (max size: 5MB, running total: 172MB)
+27280 23:36:57 INFO  Cache created: 'admin[xsl]' (max size: 10MB, running total: 182MB)
+27280 23:36:57 INFO  Cache created: 'admin[filtered items]' (max size: 2MB, running total: 184MB)
+27280 23:36:57 INFO  Cache created: 'service[html]' (max size: 0 bytes, running total: 184MB)
+27280 23:36:57 INFO  Cache created: 'service[registry]' (max size: 5MB, running total: 189MB)
+27280 23:36:57 INFO  Cache created: 'service[viewstate]' (max size: 5MB, running total: 194MB)
+27280 23:36:57 INFO  Cache created: 'service[xsl]' (max size: 10MB, running total: 204MB)
+27280 23:36:57 INFO  Cache created: 'service[filtered items]' (max size: 2MB, running total: 206MB)
+27280 23:36:57 INFO  Cache created: 'modules_shell[html]' (max size: 0 bytes, running total: 206MB)
+27280 23:36:57 INFO  Cache created: 'modules_shell[registry]' (max size: 5MB, running total: 211MB)
+27280 23:36:57 INFO  Cache created: 'modules_shell[viewstate]' (max size: 5MB, running total: 216MB)
+27280 23:36:57 INFO  Cache created: 'modules_shell[xsl]' (max size: 10MB, running total: 226MB)
+27280 23:36:57 INFO  Cache created: 'modules_shell[filtered items]' (max size: 2MB, running total: 228MB)
+27280 23:36:57 INFO  Cache created: 'modules_website[html]' (max size: 5MB, running total: 233MB)
+27280 23:36:57 INFO  Cache created: 'modules_website[registry]' (max size: 5MB, running total: 238MB)
+27280 23:36:57 INFO  Cache created: 'modules_website[viewstate]' (max size: 5MB, running total: 243MB)
+27280 23:36:57 INFO  Cache created: 'modules_website[xsl]' (max size: 10MB, running total: 253MB)
+27280 23:36:57 INFO  Cache created: 'modules_website[filtered items]' (max size: 2MB, running total: 255MB)
+27280 23:36:57 INFO  Cache created: 'website[html]' (max size: 10MB, running total: 265MB)
+27280 23:36:57 INFO  Cache created: 'website[registry]' (max size: 0 bytes, running total: 265MB)
+27280 23:36:57 INFO  Cache created: 'website[viewstate]' (max size: 0 bytes, running total: 265MB)
+27280 23:36:57 INFO  Cache created: 'website[xsl]' (max size: 5MB, running total: 270MB)
+27280 23:36:57 INFO  Cache created: 'website[filtered items]' (max size: 2MB, running total: 272MB)
+27280 23:36:57 INFO  Cache created: 'scheduler[html]' (max size: 0 bytes, running total: 272MB)
+27280 23:36:57 INFO  Cache created: 'scheduler[registry]' (max size: 5MB, running total: 277MB)
+27280 23:36:57 INFO  Cache created: 'scheduler[viewstate]' (max size: 5MB, running total: 282MB)
+27280 23:36:57 INFO  Cache created: 'scheduler[xsl]' (max size: 10MB, running total: 292MB)
+27280 23:36:57 INFO  Cache created: 'scheduler[filtered items]' (max size: 2MB, running total: 294MB)
+27280 23:36:57 INFO  Cache created: 'system[html]' (max size: 0 bytes, running total: 294MB)
+27280 23:36:57 INFO  Cache created: 'system[registry]' (max size: 5MB, running total: 299MB)
+27280 23:36:57 INFO  Cache created: 'system[viewstate]' (max size: 5MB, running total: 304MB)
+27280 23:36:57 INFO  Cache created: 'system[xsl]' (max size: 10MB, running total: 314MB)
+27280 23:36:57 INFO  Cache created: 'system[filtered items]' (max size: 2MB, running total: 316MB)
+27280 23:36:57 INFO  Cache created: 'publisher[html]' (max size: 0 bytes, running total: 316MB)
+27280 23:36:57 INFO  Cache created: 'publisher[registry]' (max size: 5MB, running total: 321MB)
+27280 23:36:57 INFO  Cache created: 'publisher[viewstate]' (max size: 5MB, running total: 326MB)
+27280 23:36:57 INFO  Cache created: 'publisher[xsl]' (max size: 10MB, running total: 336MB)
+27280 23:36:57 INFO  Cache created: 'publisher[filtered items]' (max size: 2MB, running total: 338MB)
+27280 23:36:57 INFO  Cache created: 'clientData' (max size: 5MB, running total: 343MB)
+27280 23:36:57 INFO  Cache created: 'SqlDataProvider - Prefetch data(web)' (max size: 10MB, running total: 353MB)
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.ControlsRendered' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.ControlsRenderedFromCache' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.PagesGenerated' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.RenderingsRendered' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.SublayoutsRendered' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.XmlControlsCompiled' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.XamlControlsCompiled' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 WARN  Could not create an instance of the counter 'Rendering.XslTransformsRendered' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+27280 23:36:57 INFO  Cache created: 'rules' (max size: 800KB, running total: 353MB)
+28208 23:36:58 INFO  HttpModule is being initialized
+ManagedPoolThread #8 23:36:59 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+23636 23:37:29 INFO  **************************************************
+23636 23:37:29 WARN  Sitecore shutting down
+23636 23:37:29 WARN  Shutdown message: Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename

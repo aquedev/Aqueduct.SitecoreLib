@@ -1,5 +1,12 @@
 ﻿using System;
+using System.Web;
+using Aqueduct.DataAccess;
+using Aqueduct.SitecoreLib.DataAccess;
+using Aqueduct.SitecoreLib.EventHandlers;
 using Aqueduct.SitecoreLib.Examples.SampleApplication.Business.StructureMap;
+using Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Classes;
+using Aqueduct.Web;
+using Aqueduct.Web.Configuration;
 using StructureMap;
 
 namespace Aqueduct.SitecoreLib.Examples.SampleApplication.Web
@@ -14,8 +21,6 @@ namespace Aqueduct.SitecoreLib.Examples.SampleApplication.Web
                                          {
                                              x.AddRegistry(new SimpleRegistry("Aqueduct.SitecoreLib.Examples.SampleApplication"));
                                          });
-
-            
         }
 
         protected void Session_Start(object sender, EventArgs e)

@@ -1,5 +1,7 @@
 ﻿using Aqueduct.SitecoreLib.DataAccess;
 using Aqueduct.SitecoreLib.Examples.SampleApplication.Business.Domain;
+using Aqueduct.SitecoreLib.Examples.SampleApplication.Business.Domain.Widgets;
+using Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess.Resolvers;
 
 namespace Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess.Maps
 {
@@ -7,11 +9,11 @@ namespace Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess.Maps
     {
         public ContentPageMap()
         {
-          //  MapProperty(x => x.Widgets).SetResolver(new InferredMultiListValueResolver<IWidget>("Widgets"));
+            MapProperty(x => x.Widgets).SetResolver(new InferredMultiListValueResolver<IWidget>("Widgets"));
             MapProperty(x => x.Headline);
             MapProperty(x => x.Summary);
             MapProperty(x => x.Content);
-           // MapProperty(x => x.Image).SetResolver(new FirstImageInListResolver("Images"));
+            MapProperty(x => x.Image);
         }
 
         public override string TemplatePath
