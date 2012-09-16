@@ -146,6 +146,40 @@
       <DependentUpon>ContentControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Controls\ContentControl.ascx.designer.cs">
+      <DependentUpon>ContentControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Widgets\FacebookWidgetControl.ascx.cs">
+      <DependentUpon>FacebookWidgetControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Widgets\FacebookWidgetControl.ascx.designer.cs">
+      <DependentUpon>FacebookWidgetControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Widgets\GooglePlusWidgetControl.ascx.cs">
+      <DependentUpon>GooglePlusWidgetControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Widgets\GooglePlusWidgetControl.ascx.designer.cs">
+      <DependentUpon>GooglePlusWidgetControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Widgets\ImageWidgetControl.ascx.cs">
+      <DependentUpon>ImageWidgetControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Widgets\ImageWidgetControl.ascx.designer.cs">
+      <DependentUpon>ImageWidgetControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Widgets\TwitterWidgetControl.ascx.cs">
+      <DependentUpon>TwitterWidgetControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Widgets\TwitterWidgetControl.ascx.designer.cs">
+      <DependentUpon>TwitterWidgetControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Widgets\WidgetRenderer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -156,6 +190,13 @@
     <Compile Include="layouts\MainLayout.aspx.designer.cs">
       <DependentUpon>MainLayout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\RightWidgetArea.ascx.cs">
+      <DependentUpon>RightWidgetArea.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RightWidgetArea.ascx.designer.cs">
+      <DependentUpon>RightWidgetArea.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,12 +206,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Controls\Widgets\FacebookWidgetControl.ascx" />
+    <Content Include="Controls\Widgets\GooglePlusWidgetControl.ascx" />
+    <Content Include="Controls\Widgets\ImageWidgetControl.ascx" />
+    <Content Include="Controls\Widgets\TwitterWidgetControl.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="default.css" />
     <Content Include="default.js" />
     <Content Include="Global.asax" />
     <Content Include="Controls\ContentControl.ascx" />
     <Content Include="layouts\MainLayout.aspx" />
+    <Content Include="Controls\RightWidgetArea.ascx" />
     <Content Include="layouts\system\VisitorIdentification.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -183,8 +229,6 @@
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\FieldTypes.config" />
     <Content Include="App_Config\Icons.config" />
-    <Content Include="App_Config\Include\Captcha.config" />
-    <Content Include="App_Config\Include\IndexViewer.config" />
     <Content Include="App_Config\Include\ScalabilitySettings.config" />
     <Content Include="App_Config\Include\Sitecore.WebDAV.config" />
     <Content Include="App_Config\LanguageDefinitions.config" />
@@ -211,6 +255,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="layouts\SampleApplication\Structure\" />
+    <Folder Include="layouts\Shared\" />
     <Folder Include="xsl\WebEdit\System\" />
   </ItemGroup>
   <ItemGroup>

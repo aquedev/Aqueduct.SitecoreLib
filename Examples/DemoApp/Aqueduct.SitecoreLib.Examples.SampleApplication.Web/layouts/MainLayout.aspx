@@ -24,7 +24,7 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <sc:Placeholder runat="server" Key="header" />
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="/Content/bootstrap.min.js"></script>
   </body>

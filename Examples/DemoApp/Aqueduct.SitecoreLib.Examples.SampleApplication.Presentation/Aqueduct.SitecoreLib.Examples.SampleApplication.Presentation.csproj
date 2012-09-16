@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Controls\Content\ContentPresenter.cs" />
     <Compile Include="Controls\Content\IContentView.cs" />
+    <Compile Include="Controls\Widgets\IWidgetArea.cs" />
+    <Compile Include="Controls\Widgets\WidgetAreaPresenter.cs" />
     <Compile Include="IMVPView.cs" />
     <Compile Include="MVPPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -18,14 +18,10 @@ namespace Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Controls
             {
                 if (value.Any())
                 {
-                   // RightWidgets.Widgets = value;
-                    //RightWidgets.Visible = true;
-
-                    Show3Column = true;
+                   // Widgets.Widgets = value;
+                    //Widgets.Visible = true;
                 }
             }
         }
-
-        protected bool Show3Column { get; set; }
     }
 }
