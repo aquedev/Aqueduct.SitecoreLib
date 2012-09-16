@@ -246,9 +246,6 @@
     <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Todo.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Aqueduct.1.0.nuspec">
       <SubType>Designer</SubType>
     </None>

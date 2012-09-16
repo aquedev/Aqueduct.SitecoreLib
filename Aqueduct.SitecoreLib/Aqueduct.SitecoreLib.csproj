@@ -233,7 +233,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SitecorePackages\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <ItemGroup>

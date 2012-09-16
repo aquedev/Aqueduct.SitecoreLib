@@ -1,0 +1,23 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:Packaging/f:PackageInfo.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:Repositories/f:ReadOnlyRepository.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:Search/d:DynamicFields/f:IsApprovedField.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:Domain/f:Image.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/f:IMap.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:SitecoreResolvers/f:DateCreatedResolver.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:SitecoreResolvers/f:DateModifiedResolver.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:SitecoreResolvers/f:ISitecoreResolver.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:SitecoreResolvers/f:ItemNameResolver.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:SitecoreResolvers/f:LinkedFieldItemNameResolver.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:StructureMap/f:MapConventionScanner.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/f:TreeCrawler.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:EventHandlers/f:SitecoreEventsHandlerInitialisater.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:Packaging/f:PackageXml.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/f:SublayoutHelper.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/f:FieldRendererProxy.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:DataAccess/d:Caches/f:HybridContextLevelCache.cs" caret="0" fromTop="0" />
+    <File id="13897D69-8FE0-402A-BDEB-C2E1CA40722F/d:Registries/f:SitecoreRegistry.cs" caret="0" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits />
+</RecentFiles>
