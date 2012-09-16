@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.Business", "Aqueduct.SitecoreLib.Examples.SampleApplication.Business\Aqueduct.SitecoreLib.Examples.SampleApplication.Business.csproj", "{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess", "Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess\Aqueduct.SitecoreLib.Examples.SampleApplication.DataAccess.csproj", "{00A360F7-669F-49B5-9933-F4A1E6D5D264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation", "Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation\Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation.csproj", "{B684904C-AB75-405E-BDDA-9A6902366B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.Web", "Aqueduct.SitecoreLib.Examples.SampleApplication.Web\Aqueduct.SitecoreLib.Examples.SampleApplication.Web.csproj", "{8C4C267E-5C8D-48B9-ABF3-5CBAE1BE9908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E68021D2-05F2-452A-8C0A-7253B8358C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.UnitTests", "Aqueduct.SitecoreLib.Examples.SampleApplication.UnitTests\Aqueduct.SitecoreLib.Examples.SampleApplication.UnitTests.csproj", "{FAD2420C-0C55-4765-ACE5-255B5E1C6E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqueduct.SitecoreLib.Examples.SampleApplication.IntegrationTests", "Aqueduct.SitecoreLib.Examples.SampleApplication.IntegrationTests\Aqueduct.SitecoreLib.Examples.SampleApplication.IntegrationTests.csproj", "{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A360F7-669F-49B5-9933-F4A1E6D5D264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A360F7-669F-49B5-9933-F4A1E6D5D264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A360F7-669F-49B5-9933-F4A1E6D5D264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A360F7-669F-49B5-9933-F4A1E6D5D264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B684904C-AB75-405E-BDDA-9A6902366B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B684904C-AB75-405E-BDDA-9A6902366B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B684904C-AB75-405E-BDDA-9A6902366B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B684904C-AB75-405E-BDDA-9A6902366B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4C267E-5C8D-48B9-ABF3-5CBAE1BE9908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4C267E-5C8D-48B9-ABF3-5CBAE1BE9908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4C267E-5C8D-48B9-ABF3-5CBAE1BE9908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4C267E-5C8D-48B9-ABF3-5CBAE1BE9908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD2420C-0C55-4765-ACE5-255B5E1C6E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD2420C-0C55-4765-ACE5-255B5E1C6E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD2420C-0C55-4765-ACE5-255B5E1C6E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD2420C-0C55-4765-ACE5-255B5E1C6E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAD2420C-0C55-4765-ACE5-255B5E1C6E06} = {E68021D2-05F2-452A-8C0A-7253B8358C5B}
+		{51FED2A0-3F63-448A-BEF4-FAAE4DDAFFDF} = {E68021D2-05F2-452A-8C0A-7253B8358C5B}
+	EndGlobalSection
+EndGlobal
