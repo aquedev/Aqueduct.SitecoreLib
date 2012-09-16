@@ -1,0 +1,2 @@
+22548 21:31:55 FATAL WebDAV License file 'D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\data\webdav.lic' not found.
+25788 21:58:48 INFO  WebDAV feature is supported for Internet Explorer browser only.

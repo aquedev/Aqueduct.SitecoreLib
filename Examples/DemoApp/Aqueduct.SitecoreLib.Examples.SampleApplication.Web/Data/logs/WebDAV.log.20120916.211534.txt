@@ -1,0 +1,2 @@
+25304 21:15:34 FATAL WebDAV License file 'D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\data\webdav.lic' not found.
+25304 21:15:34 FATAL WebDAV folder that is defined in WebDAV.Folder setting in configuration file not found. WebDAV feature is not configured properly and will be disabled.

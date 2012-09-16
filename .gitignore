@@ -64,5 +64,7 @@ _ReSharper*/
 /src/*.Site/upload/
 /src/*.Site/temp/
 /src/*.Site/App_Data/
-
-/src/SAFC.Site/OptaFiles
+/Examples/DemoApp/Aqueduct.SitecoreLib.Examples.SampleApplication.Web/sitecore
+/Examples/DemoApp/Aqueduct.SitecoreLib.Examples.SampleApplication.Web/sitecore modules
+/Examples/DemoApp/Aqueduct.SitecoreLib.Examples.SampleApplication.Web/sitecore files
+*license.xml
