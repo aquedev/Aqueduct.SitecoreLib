@@ -207,6 +207,7 @@
     <Compile Include="Presentation\AbstractPresenter.cs" />
     <Compile Include="Presentation\IAbstractView.cs" />
     <Compile Include="Presentation\ISitecoreView.cs" />
+    <Compile Include="Presentation\MVPPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registries\DefaultRegistry.cs" />
     <Compile Include="Utils\AssertionFailedException.cs" />
@@ -286,11 +287,12 @@
     <!-- We do an IL merge to avoid dependency problems (bloody log4net!) -->
     <MakeDir Directories="bin\$(Configuration)\v4.0\Deploy" Condition="!Exists('bin\$(Configuration)\v4.0\Deploy')" />
     <!-- <Exec Command="&quot;..\tools\ilmerge\ilmerge.exe&quot;  /internalize /targetplatform:v4,C:\Windows\Microsoft.NET\Framework\v4.0.30319  /out:bin\$(Configuration)\v4.0\Deploy\Aqueduct.dll bin\$(Configuration)\v4.0\Aqueduct.dll bin\$(Configuration)\v4.0\log4net.dll" />-->
-    <Exec Command="xcopy bin\$(Configuration)\v4.0\Deploy\Aqueduct.dll bin\$(Configuration)\v4.0\Aqueduct.dll /y" />
+    <!--  <Exec Command="xcopy bin\$(Configuration)\v4.0\Deploy\Aqueduct.dll bin\$(Configuration)\v4.0\Aqueduct.dll /y" />
     <Message Text="Compiling under .Net v3.5" />
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="TargetFrameworkVersion=v3.5" RunEachTargetSeparately="true" Targets="Rebuild" />
     <MakeDir Directories="bin\$(Configuration)\v3.5\Deploy" Condition="!Exists('bin\$(Configuration)\v3.5\Deploy')" />
+   -->
     <!-- <Exec Command="&quot;..\tools\ilmerge\ilmerge.exe&quot;  /internalize  /out:bin\$(Configuration)\v3.5\Deploy\Aqueduct.dll bin\$(Configuration)\v3.5\Aqueduct.dll bin\$(Configuration)\v3.5\log4net.dll" />-->
-    <Exec Command="xcopy bin\$(Configuration)\v3.5\Deploy\Aqueduct.dll bin\$(Configuration)\v3.5\Aqueduct.dll /y" />
+    <!--<Exec Command="xcopy bin\$(Configuration)\v3.5\Deploy\Aqueduct.dll bin\$(Configuration)\v3.5\Aqueduct.dll /y" />-->
   </Target>
 </Project>

@@ -33,7 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppfailReporting">
+      <HintPath>..\lib\AppfailReporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Aqueduct">
+      <HintPath>..\lib\Aqueduct.dll</HintPath>
+    </Reference>
+    <Reference Include="Aqueduct.SitecoreLib">
+      <HintPath>..\lib\Aqueduct.SitecoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\lib\Lucene.Net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\lib\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -51,9 +72,81 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\MVPUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentControl.ascx.cs">
+      <DependentUpon>ContentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\glyphicons-halflings-white.png" />
+    <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="default.css" />
+    <Content Include="default.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Controls\ContentControl.ascx" />
+    <Content Include="layouts\system\VisitorIdentification.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="webedit.css" />
+    <Content Include="xsl\sample rendering.xslt" />
+    <Content Include="xsl\system\WebEdit\Hidden Rendering.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Commands.config" />
+    <Content Include="App_Config\ConnectionStrings.config" />
+    <Content Include="App_Config\FieldTypes.config" />
+    <Content Include="App_Config\Icons.config" />
+    <Content Include="App_Config\Include\Captcha.config" />
+    <Content Include="App_Config\Include\IndexViewer.config" />
+    <Content Include="App_Config\Include\ScalabilitySettings.config" />
+    <Content Include="App_Config\Include\Sitecore.WebDAV.config" />
+    <Content Include="App_Config\LanguageDefinitions.config" />
+    <Content Include="App_Config\MimeTypes.config" />
+    <Content Include="App_Config\Portraits.config" />
+    <Content Include="App_Config\Prefetch\Common.config" />
+    <Content Include="App_Config\Prefetch\Core.config" />
+    <Content Include="App_Config\Prefetch\Master.config" />
+    <Content Include="App_Config\Prefetch\Web.config" />
+    <Content Include="App_Config\Prototypes.config" />
+    <Content Include="App_Config\Security\Domains.config" />
+    <Content Include="App_Config\Security\GlobalRoles.config" />
+    <Content Include="App_Config\XamlSharp.config" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Browsers\Form.browser" />
+    <Content Include="App_Browsers\XamlPage.browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.htm.sitedown" />
+    <Content Include="Design.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="layouts\SampleApplication\Structure\" />
+    <Folder Include="xsl\WebEdit\System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.Business\Aqueduct.SitecoreLib.Examples.SampleApplication.Business.csproj">
+      <Project>{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}</Project>
+      <Name>Aqueduct.SitecoreLib.Examples.SampleApplication.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation\Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation.csproj">
+      <Project>{B684904C-AB75-405E-BDDA-9A6902366B7A}</Project>
+      <Name>Aqueduct.SitecoreLib.Examples.SampleApplication.Presentation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

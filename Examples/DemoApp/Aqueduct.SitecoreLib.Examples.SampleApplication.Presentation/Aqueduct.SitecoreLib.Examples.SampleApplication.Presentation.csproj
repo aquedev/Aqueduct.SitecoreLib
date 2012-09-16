@@ -31,6 +31,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppfailReporting">
+      <HintPath>..\lib\AppfailReporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Aqueduct">
+      <HintPath>..\lib\Aqueduct.dll</HintPath>
+    </Reference>
+    <Reference Include="Aqueduct.SitecoreLib">
+      <HintPath>..\lib\Aqueduct.SitecoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\lib\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\lib\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,10 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Content\ContentPresenter.cs" />
+    <Compile Include="Controls\Content\IContentView.cs" />
+    <Compile Include="IMVPView.cs" />
+    <Compile Include="MVPPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Presenters\" />
+    <ProjectReference Include="..\Aqueduct.SitecoreLib.Examples.SampleApplication.Business\Aqueduct.SitecoreLib.Examples.SampleApplication.Business.csproj">
+      <Project>{F5FDBB16-48D8-459D-9FB4-B6A7B0D6552F}</Project>
+      <Name>Aqueduct.SitecoreLib.Examples.SampleApplication.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

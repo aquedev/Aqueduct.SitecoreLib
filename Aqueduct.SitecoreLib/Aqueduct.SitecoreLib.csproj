@@ -255,8 +255,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <Target Name="AfterBuild" Condition="'$(TargetFrameworkVersion)' == 'v4.0'">
+  <!--<Target Name="AfterBuild" Condition="'$(TargetFrameworkVersion)' == 'v4.0'">
     <Message Text="Compiling under .Net v3.5" />
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="TargetFrameworkVersion=v3.5" RunEachTargetSeparately="true" Targets="Rebuild" />
-  </Target>
+  </Target>-->
 </Project>
