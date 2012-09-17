@@ -1,0 +1,2626 @@
+28224 00:01:57 INFO  Scheduler - Adding agents
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.DatabaseAgent (interval: 00:10:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.DatabaseAgent (interval: 00:10:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.UrlAgent (interval: 01:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.TaskDatabaseAgent (interval: 00:10:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CompactClientDataAgent (interval: 04:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupHistory (interval: 04:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupPublishQueue (interval: 04:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupEventQueue (interval: 04:00:00)
+28224 00:01:57 INFO  Scheduler - Skipping inactive agent: Sitecore.Tasks.HtmlCacheClearAgent
+28224 00:01:57 INFO  Scheduler - Skipping inactive agent: Sitecore.Tasks.PublishAgent
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupAgent (interval: 06:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CounterDumpAgent (interval: 01:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CloneNotificationsCleanupAgent (interval: 1.00:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupFDAObsoleteMediaData (interval: 1.00:00:00)
+28224 00:01:57 INFO  Scheduler - Adding agent: Sitecore.Tasks.WebDAVOptionsCleanupAgent (interval: 1.00:00:00)
+28224 00:01:57 INFO  Scheduler - Agents added
+Heartbeat 00:01:59 INFO  Cache created: 'SqlDataProvider - Prefetch data(master)' (max size: 20MB, running total: 373MB)
+ManagedPoolThread #4 00:02:03 WARN  Could not create an instance of the counter 'Jobs.JobsExecuted' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #4 00:02:03 WARN  Could not create an instance of the counter 'Context.SiteChanged' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #4 00:02:03 WARN  Could not create an instance of the counter 'Context.ThreadDataAccessed' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #12 00:06:57 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 00:06:57 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #12 00:06:57 INFO  Examining schedules (count: 0)
+ManagedPoolThread #12 00:06:57 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 00:06:57 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 00:06:57 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 00:06:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 00:06:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 00:06:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 00:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #0 00:06:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.FileCleanups' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.HtmlCacheClearings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.ItemsArchived' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.Publishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.RemindersSent' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 WARN  Could not create an instance of the counter 'Tasks.TasksExecuted' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #0 00:06:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #0 00:06:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 00:06:59 INFO  Health.PrivateBytes: 0
+Heartbeat 00:06:59 INFO  Health.CacheInstances: 84
+Heartbeat 00:06:59 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:06:59 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:06:59 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #10 00:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #10 00:16:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #10 00:16:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #10 00:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #4 00:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 00:16:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #4 00:16:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #4 00:16:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #4 00:16:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #4 00:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #3 00:16:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #3 00:16:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #3 00:16:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 00:17:01 INFO  Health.PrivateBytes: 0
+Heartbeat 00:17:01 INFO  Health.CacheInstances: 84
+Heartbeat 00:17:01 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:17:01 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:17:01 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #18 00:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #18 00:26:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #18 00:26:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #18 00:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #16 00:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 00:26:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #16 00:26:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #16 00:26:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #16 00:26:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #16 00:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #7 00:26:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #7 00:26:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #7 00:26:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 00:27:01 INFO  Health.PrivateBytes: 0
+Heartbeat 00:27:01 INFO  Health.CacheInstances: 84
+Heartbeat 00:27:01 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:27:01 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:27:01 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #14 00:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #14 00:36:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #14 00:36:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #14 00:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #13 00:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #13 00:36:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #13 00:36:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #13 00:36:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #13 00:36:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #13 00:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #8 00:36:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #8 00:36:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #8 00:36:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 00:37:01 INFO  Health.PrivateBytes: 0
+Heartbeat 00:37:01 INFO  Health.CacheInstances: 84
+Heartbeat 00:37:01 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:37:01 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:37:01 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #6 00:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 00:46:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #6 00:46:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #6 00:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #12 00:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 00:46:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #12 00:46:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #12 00:46:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #12 00:46:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #12 00:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #5 00:46:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #5 00:46:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #5 00:46:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 00:47:03 INFO  Health.PrivateBytes: 0
+Heartbeat 00:47:03 INFO  Health.CacheInstances: 84
+Heartbeat 00:47:03 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:47:03 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:47:03 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #2 00:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #2 00:56:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #2 00:56:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #2 00:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #1 00:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #1 00:56:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #1 00:56:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #1 00:56:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #1 00:56:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #1 00:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #11 00:56:58 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #11 00:56:58 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #11 00:56:58 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #11 00:56:58 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #4 00:56:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #4 00:56:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #4 00:56:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #10 00:56:58 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Exceptions.ExceptionsThrown' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'IO.FileWatcherEvents' (category: 'Sitecore.System')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Links.FieldsExamined' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Links.DataRead' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Links.DataUpdated' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Media.FastMediaCacheHits' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Media.FastMediaCacheMisses' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Media.StandardMediaCacheHits' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Media.StandardMediaCacheMisses' (category: 'Sitecore.Presentation')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.FullPublishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.IncrementalPublishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.ItemPublishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.ItemsExamined' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.ItemsPublished' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.ItemsQueued' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.Replacements' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.SmartPublishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Publishing.TotalPublishings' (category: 'Sitecore.Jobs')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Shadows.DataRead' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Shadows.DataUpdated' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Workflow.ActionsExecuted' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Workflow.SecurityResolved' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 WARN  Could not create an instance of the counter 'Workflow.StateChanges' (category: 'Sitecore.Data')
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.InitializeCounter(Boolean reset)
+
+ManagedPoolThread #10 00:56:58 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 00:57:05 INFO  Health.PrivateBytes: 0
+Heartbeat 00:57:05 INFO  Health.CacheInstances: 84
+Heartbeat 00:57:05 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 00:57:05 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 00:57:05 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #16 01:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 01:06:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #16 01:06:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #16 01:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #18 01:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #18 01:06:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #18 01:06:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #18 01:06:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #18 01:06:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #18 01:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #7 01:06:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #7 01:06:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #7 01:06:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 01:07:07 INFO  Health.PrivateBytes: 0
+Heartbeat 01:07:07 INFO  Health.CacheInstances: 84
+Heartbeat 01:07:07 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:07:07 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:07:07 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #19 01:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 01:16:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #19 01:16:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #19 01:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #13 01:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #13 01:16:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #13 01:16:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #13 01:16:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #13 01:16:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #13 01:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #8 01:16:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #8 01:16:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #8 01:16:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 01:17:09 INFO  Health.PrivateBytes: 0
+Heartbeat 01:17:09 INFO  Health.CacheInstances: 84
+Heartbeat 01:17:09 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:17:09 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:17:09 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #3 01:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 01:26:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #3 01:26:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #3 01:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #5 01:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 01:26:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #5 01:26:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #5 01:26:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #5 01:26:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #5 01:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #12 01:26:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #12 01:26:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #12 01:26:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 01:27:10 INFO  Health.PrivateBytes: 0
+Heartbeat 01:27:10 INFO  Health.CacheInstances: 84
+Heartbeat 01:27:10 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:27:10 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:27:10 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #1 01:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #1 01:36:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #1 01:36:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #1 01:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #4 01:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 01:36:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #4 01:36:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #4 01:36:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #4 01:36:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #4 01:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #2 01:36:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #2 01:36:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #2 01:36:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 01:37:12 INFO  Health.PrivateBytes: 0
+Heartbeat 01:37:12 INFO  Health.CacheInstances: 84
+Heartbeat 01:37:12 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:37:12 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:37:12 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #17 01:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #17 01:46:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #17 01:46:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #17 01:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #16 01:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 01:46:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #16 01:46:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #16 01:46:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #16 01:46:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #16 01:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #0 01:46:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #0 01:46:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #0 01:46:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 01:47:14 INFO  Health.PrivateBytes: 0
+Heartbeat 01:47:14 INFO  Health.CacheInstances: 84
+Heartbeat 01:47:14 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:47:14 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:47:14 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #14 01:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #14 01:56:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #14 01:56:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #14 01:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 01:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 01:56:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 01:56:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 01:56:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 01:56:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 01:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #6 01:56:58 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #6 01:56:58 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #6 01:56:58 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #6 01:56:58 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #9 01:56:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #9 01:56:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #9 01:56:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #13 01:56:58 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #13 01:56:58 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 01:57:16 INFO  Health.PrivateBytes: 0
+Heartbeat 01:57:16 INFO  Health.CacheInstances: 84
+Heartbeat 01:57:16 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 01:57:16 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 01:57:16 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #11 02:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #11 02:06:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #11 02:06:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #11 02:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #5 02:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 02:06:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #5 02:06:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #5 02:06:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #5 02:06:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #5 02:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #3 02:06:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #3 02:06:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #3 02:06:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 02:07:18 INFO  Health.PrivateBytes: 0
+Heartbeat 02:07:18 INFO  Health.CacheInstances: 84
+Heartbeat 02:07:18 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:07:18 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:07:18 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #4 02:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 02:16:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #4 02:16:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #4 02:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #7 02:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 02:16:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #7 02:16:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #7 02:16:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #7 02:16:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #7 02:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #18 02:16:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #18 02:16:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #18 02:16:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 02:17:20 INFO  Health.PrivateBytes: 0
+Heartbeat 02:17:20 INFO  Health.CacheInstances: 84
+Heartbeat 02:17:20 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:17:20 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:17:20 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #16 02:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 02:26:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #16 02:26:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #16 02:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #8 02:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #8 02:26:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #8 02:26:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #8 02:26:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #8 02:26:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #8 02:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #17 02:26:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #17 02:26:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #17 02:26:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 02:27:22 INFO  Health.PrivateBytes: 0
+Heartbeat 02:27:22 INFO  Health.CacheInstances: 84
+Heartbeat 02:27:22 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:27:22 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:27:22 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #12 02:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 02:36:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #12 02:36:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #12 02:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 02:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 02:36:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 02:36:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 02:36:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 02:36:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 02:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #9 02:36:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #9 02:36:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #9 02:36:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 02:37:24 INFO  Health.PrivateBytes: 0
+Heartbeat 02:37:24 INFO  Health.CacheInstances: 84
+Heartbeat 02:37:24 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:37:24 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:37:24 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #5 02:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 02:46:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 02:46:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 02:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #11 02:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #11 02:46:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #11 02:46:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #11 02:46:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #11 02:46:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #11 02:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #10 02:46:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #10 02:46:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #10 02:46:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 02:47:26 INFO  Health.PrivateBytes: 0
+Heartbeat 02:47:26 INFO  Health.CacheInstances: 84
+Heartbeat 02:47:26 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:47:26 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:47:26 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #4 02:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 02:56:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #4 02:56:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #4 02:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #0 02:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #0 02:56:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #0 02:56:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #0 02:56:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #0 02:56:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #0 02:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #1 02:56:58 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #1 02:56:58 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #1 02:56:58 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #1 02:56:58 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #15 02:56:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #15 02:56:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #15 02:56:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #7 02:56:58 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #7 02:56:58 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 02:57:27 INFO  Health.PrivateBytes: 0
+Heartbeat 02:57:27 INFO  Health.CacheInstances: 84
+Heartbeat 02:57:27 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 02:57:27 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 02:57:27 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #8 03:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #8 03:06:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #8 03:06:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #8 03:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #14 03:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #14 03:06:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #14 03:06:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #14 03:06:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #14 03:06:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #14 03:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #16 03:06:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #16 03:06:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #16 03:06:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 03:07:29 INFO  Health.PrivateBytes: 0
+Heartbeat 03:07:29 INFO  Health.CacheInstances: 84
+Heartbeat 03:07:29 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:07:29 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:07:29 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #6 03:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 03:16:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #6 03:16:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #6 03:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #12 03:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 03:16:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #12 03:16:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #12 03:16:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #12 03:16:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #12 03:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #19 03:16:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #19 03:16:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #19 03:16:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 03:17:31 INFO  Health.PrivateBytes: 0
+Heartbeat 03:17:31 INFO  Health.CacheInstances: 84
+Heartbeat 03:17:31 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:17:31 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:17:31 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #18 03:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #18 03:26:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #18 03:26:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #18 03:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #11 03:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #11 03:26:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #11 03:26:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #11 03:26:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #11 03:26:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #11 03:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #10 03:26:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #10 03:26:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #10 03:26:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 03:27:33 INFO  Health.PrivateBytes: 0
+Heartbeat 03:27:33 INFO  Health.CacheInstances: 84
+Heartbeat 03:27:33 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:27:33 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:27:33 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #17 03:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #17 03:36:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #17 03:36:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #17 03:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #1 03:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #1 03:36:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #1 03:36:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #1 03:36:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #1 03:36:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #1 03:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #0 03:36:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #0 03:36:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #0 03:36:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 03:37:35 INFO  Health.PrivateBytes: 0
+Heartbeat 03:37:35 INFO  Health.CacheInstances: 84
+Heartbeat 03:37:35 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:37:35 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:37:35 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #19 03:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 03:46:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #19 03:46:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #19 03:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #9 03:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #9 03:46:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #9 03:46:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #9 03:46:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #9 03:46:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #9 03:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #14 03:46:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #14 03:46:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #14 03:46:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 03:47:37 INFO  Health.PrivateBytes: 0
+Heartbeat 03:47:37 INFO  Health.CacheInstances: 84
+Heartbeat 03:47:37 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:47:37 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:47:37 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #5 03:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 03:56:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 03:56:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 03:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #3 03:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 03:56:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #3 03:56:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #3 03:56:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #3 03:56:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #3 03:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #2 03:56:58 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #2 03:56:58 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #2 03:56:58 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #2 03:56:58 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #6 03:56:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #6 03:56:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #6 03:56:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #12 03:56:58 INFO  Job started: Sitecore.Tasks.CompactClientDataAgent
+ManagedPoolThread #12 03:56:58 INFO  Job ended: Sitecore.Tasks.CompactClientDataAgent (units processed: )
+ManagedPoolThread #19 03:56:58 INFO  Job started: Sitecore.Tasks.CleanupHistory
+ManagedPoolThread #19 03:56:58 INFO  Job ended: Sitecore.Tasks.CleanupHistory (units processed: )
+ManagedPoolThread #9 03:56:58 INFO  Job started: Sitecore.Tasks.CleanupPublishQueue
+ManagedPoolThread #9 03:56:58 INFO  Job ended: Sitecore.Tasks.CleanupPublishQueue (units processed: )
+ManagedPoolThread #14 03:56:58 INFO  Job started: Sitecore.Tasks.CleanupEventQueue
+ManagedPoolThread #14 03:56:58 INFO  Job ended: Sitecore.Tasks.CleanupEventQueue (units processed: )
+ManagedPoolThread #13 03:56:58 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #13 03:56:58 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 03:57:39 INFO  Health.PrivateBytes: 0
+Heartbeat 03:57:39 INFO  Health.CacheInstances: 84
+Heartbeat 03:57:39 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 03:57:39 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 03:57:39 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #5 04:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 04:06:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 04:06:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 04:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #3 04:06:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 04:06:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #3 04:06:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #3 04:06:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #3 04:06:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #3 04:06:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #2 04:06:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #2 04:06:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #2 04:06:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 04:07:41 INFO  Health.PrivateBytes: 0
+Heartbeat 04:07:41 INFO  Health.CacheInstances: 84
+Heartbeat 04:07:41 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:07:41 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:07:41 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #4 04:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 04:16:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #4 04:16:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #4 04:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #7 04:16:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 04:16:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #7 04:16:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #7 04:16:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #7 04:16:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #7 04:16:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #11 04:16:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #11 04:16:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #11 04:16:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 04:17:42 INFO  Health.PrivateBytes: 0
+Heartbeat 04:17:42 INFO  Health.CacheInstances: 84
+Heartbeat 04:17:42 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:17:42 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:17:42 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #16 04:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 04:26:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #16 04:26:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #16 04:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #1 04:26:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #1 04:26:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #1 04:26:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #1 04:26:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #1 04:26:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #1 04:26:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #17 04:26:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #17 04:26:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #17 04:26:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 04:27:44 INFO  Health.PrivateBytes: 0
+Heartbeat 04:27:44 INFO  Health.CacheInstances: 84
+Heartbeat 04:27:44 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:27:44 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:27:44 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #6 04:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 04:36:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #6 04:36:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #6 04:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 04:36:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 04:36:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 04:36:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 04:36:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 04:36:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 04:36:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #14 04:36:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #14 04:36:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #14 04:36:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 04:37:46 INFO  Health.PrivateBytes: 0
+Heartbeat 04:37:46 INFO  Health.CacheInstances: 84
+Heartbeat 04:37:46 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:37:46 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:37:46 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #15 04:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #15 04:46:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #15 04:46:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #15 04:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #5 04:46:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 04:46:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #5 04:46:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #5 04:46:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #5 04:46:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #5 04:46:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #10 04:46:58 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #10 04:46:58 INFO  Processing tasks (count: 0)
+ManagedPoolThread #10 04:46:58 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 04:47:48 INFO  Health.PrivateBytes: 0
+Heartbeat 04:47:48 INFO  Health.CacheInstances: 84
+Heartbeat 04:47:48 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:47:48 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:47:48 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #8 04:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #8 04:56:58 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #8 04:56:58 INFO  Examining schedules (count: 0)
+ManagedPoolThread #8 04:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #4 04:56:58 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 04:56:58 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #4 04:56:58 INFO  Examining schedules (count: 1)
+ManagedPoolThread #4 04:56:58 INFO  Starting: __Task Schedule
+ManagedPoolThread #4 04:56:58 INFO  Ended: __Task Schedule
+ManagedPoolThread #4 04:56:58 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #7 04:56:58 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #7 04:56:58 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #7 04:56:59 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #7 04:56:59 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #0 04:56:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #0 04:56:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #0 04:56:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #11 04:56:59 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #11 04:56:59 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 04:57:50 INFO  Health.PrivateBytes: 0
+Heartbeat 04:57:50 INFO  Health.CacheInstances: 84
+Heartbeat 04:57:50 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 04:57:50 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 04:57:50 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #13 05:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #13 05:06:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #13 05:06:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #13 05:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #12 05:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 05:06:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #12 05:06:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #12 05:06:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #12 05:06:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #12 05:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #1 05:06:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #1 05:06:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #1 05:06:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 05:07:52 INFO  Health.PrivateBytes: 0
+Heartbeat 05:07:52 INFO  Health.CacheInstances: 84
+Heartbeat 05:07:52 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:07:52 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:07:52 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #2 05:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #2 05:16:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #2 05:16:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #2 05:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #6 05:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 05:16:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #6 05:16:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #6 05:16:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #6 05:16:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #6 05:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #18 05:16:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #18 05:16:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #18 05:16:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 05:17:54 INFO  Health.PrivateBytes: 0
+Heartbeat 05:17:54 INFO  Health.CacheInstances: 84
+Heartbeat 05:17:54 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:17:54 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:17:54 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #11 05:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #11 05:26:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #11 05:26:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #11 05:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #3 05:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 05:26:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #3 05:26:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #3 05:26:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #3 05:26:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #3 05:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #10 05:26:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #10 05:26:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #10 05:26:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 05:27:56 INFO  Health.PrivateBytes: 0
+Heartbeat 05:27:56 INFO  Health.CacheInstances: 84
+Heartbeat 05:27:56 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:27:56 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:27:56 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #4 05:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 05:36:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #4 05:36:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #4 05:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #7 05:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 05:36:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #7 05:36:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #7 05:36:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #7 05:36:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #7 05:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #8 05:36:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #8 05:36:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #8 05:36:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 05:37:58 INFO  Health.PrivateBytes: 0
+Heartbeat 05:37:58 INFO  Health.CacheInstances: 84
+Heartbeat 05:37:58 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:37:58 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:37:58 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #9 05:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #9 05:46:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #9 05:46:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #9 05:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #13 05:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #13 05:46:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #13 05:46:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #13 05:46:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #13 05:46:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #13 05:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #12 05:46:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #12 05:46:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #12 05:46:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 05:47:59 INFO  Health.PrivateBytes: 0
+Heartbeat 05:47:59 INFO  Health.CacheInstances: 84
+Heartbeat 05:47:59 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:47:59 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:47:59 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #5 05:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 05:56:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 05:56:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 05:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #6 05:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 05:56:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #6 05:56:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #6 05:56:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #6 05:56:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #6 05:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #2 05:56:59 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #2 05:56:59 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #2 05:56:59 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #2 05:56:59 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #19 05:56:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #19 05:56:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #19 05:56:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #15 05:56:59 INFO  Job started: Sitecore.Tasks.CleanupAgent
+ManagedPoolThread #15 05:56:59 INFO  Scheduling.CleanupAgent started. FileCleaner count: 5
+ManagedPoolThread #15 05:56:59 WARN  Folder to clean up was not found: D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\data\Dashboard reports
+ManagedPoolThread #15 05:56:59 WARN  Folder to clean up was not found: D:\SitecoreLib\Examples\DemoApp\Aqueduct.SitecoreLib.Examples.SampleApplication.Web\temp\diagnostics
+ManagedPoolThread #15 05:56:59 INFO  Scheduling.CleanupAgent done
+ManagedPoolThread #15 05:56:59 INFO  Job ended: Sitecore.Tasks.CleanupAgent (units processed: )
+ManagedPoolThread #18 05:56:59 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #18 05:56:59 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 05:58:01 INFO  Health.PrivateBytes: 0
+Heartbeat 05:58:01 INFO  Health.CacheInstances: 84
+Heartbeat 05:58:01 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 05:58:01 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 05:58:01 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #0 06:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #0 06:06:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #0 06:06:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #0 06:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #10 06:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #10 06:06:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #10 06:06:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #10 06:06:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #10 06:06:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #10 06:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #5 06:06:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #5 06:06:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #5 06:06:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 06:08:03 INFO  Health.PrivateBytes: 0
+Heartbeat 06:08:03 INFO  Health.CacheInstances: 84
+Heartbeat 06:08:03 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:08:03 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:08:03 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #16 06:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 06:16:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #16 06:16:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #16 06:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #4 06:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 06:16:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #4 06:16:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #4 06:16:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #4 06:16:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #4 06:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #3 06:16:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #3 06:16:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #3 06:16:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 06:18:05 INFO  Health.PrivateBytes: 0
+Heartbeat 06:18:05 INFO  Health.CacheInstances: 84
+Heartbeat 06:18:05 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:18:05 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:18:05 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #9 06:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #9 06:26:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #9 06:26:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #9 06:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #7 06:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 06:26:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #7 06:26:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #7 06:26:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #7 06:26:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #7 06:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #12 06:26:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #12 06:26:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #12 06:26:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 06:28:06 INFO  Health.PrivateBytes: 0
+Heartbeat 06:28:06 INFO  Health.CacheInstances: 84
+Heartbeat 06:28:06 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:28:06 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:28:06 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #5 06:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 06:36:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 06:36:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 06:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 06:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 06:36:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 06:36:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 06:36:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 06:36:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 06:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #15 06:36:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #15 06:36:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #15 06:36:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 06:38:08 INFO  Health.PrivateBytes: 0
+Heartbeat 06:38:08 INFO  Health.CacheInstances: 84
+Heartbeat 06:38:08 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:38:08 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:38:08 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #17 06:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #17 06:46:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #17 06:46:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #17 06:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #8 06:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #8 06:46:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #8 06:46:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #8 06:46:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #8 06:46:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #8 06:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #10 06:46:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #10 06:46:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #10 06:46:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 06:48:10 INFO  Health.PrivateBytes: 0
+Heartbeat 06:48:10 INFO  Health.CacheInstances: 84
+Heartbeat 06:48:10 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:48:10 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:48:10 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #14 06:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #14 06:56:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #14 06:56:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #14 06:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #16 06:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 06:56:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #16 06:56:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #16 06:56:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #16 06:56:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #16 06:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #13 06:56:59 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #13 06:56:59 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #13 06:56:59 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #13 06:56:59 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #1 06:56:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #1 06:56:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #1 06:56:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #4 06:56:59 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #4 06:56:59 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 06:58:12 INFO  Health.PrivateBytes: 0
+Heartbeat 06:58:12 INFO  Health.CacheInstances: 84
+Heartbeat 06:58:12 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 06:58:12 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 06:58:12 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #2 07:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #2 07:06:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #2 07:06:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #2 07:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #18 07:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #18 07:06:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #18 07:06:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #18 07:06:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #18 07:06:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #18 07:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #9 07:06:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #9 07:06:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #9 07:06:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:08:14 INFO  Health.PrivateBytes: 0
+Heartbeat 07:08:14 INFO  Health.CacheInstances: 84
+Heartbeat 07:08:14 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:08:14 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:08:14 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #19 07:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 07:16:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #19 07:16:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #19 07:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #7 07:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 07:16:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #7 07:16:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #7 07:16:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #7 07:16:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #7 07:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #5 07:16:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #5 07:16:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #5 07:16:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:18:16 INFO  Health.PrivateBytes: 0
+Heartbeat 07:18:16 INFO  Health.CacheInstances: 84
+Heartbeat 07:18:16 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:18:16 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:18:16 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #3 07:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 07:26:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #3 07:26:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #3 07:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #8 07:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #8 07:26:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #8 07:26:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #8 07:26:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #8 07:26:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #8 07:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #17 07:26:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #17 07:26:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #17 07:26:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:28:18 INFO  Health.PrivateBytes: 0
+Heartbeat 07:28:18 INFO  Health.CacheInstances: 84
+Heartbeat 07:28:18 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:28:18 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:28:18 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #12 07:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 07:36:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #12 07:36:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #12 07:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #14 07:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #14 07:36:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #14 07:36:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #14 07:36:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #14 07:36:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #14 07:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #1 07:36:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #1 07:36:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #1 07:36:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:38:20 INFO  Health.PrivateBytes: 0
+Heartbeat 07:38:20 INFO  Health.CacheInstances: 84
+Heartbeat 07:38:20 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:38:20 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:38:20 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #6 07:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 07:46:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #6 07:46:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #6 07:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #9 07:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #9 07:46:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #9 07:46:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #9 07:46:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #9 07:46:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #9 07:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #18 07:46:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #18 07:46:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #18 07:46:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:48:21 INFO  Health.PrivateBytes: 0
+Heartbeat 07:48:21 INFO  Health.CacheInstances: 84
+Heartbeat 07:48:21 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:48:21 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:48:21 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #10 07:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #10 07:56:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #10 07:56:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #10 07:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 07:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 07:56:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 07:56:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 07:56:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 07:56:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 07:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #0 07:56:59 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #0 07:56:59 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #0 07:56:59 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #0 07:56:59 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #11 07:56:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #11 07:56:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #11 07:56:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #7 07:56:59 INFO  Job started: Sitecore.Tasks.CompactClientDataAgent
+ManagedPoolThread #7 07:56:59 INFO  Job ended: Sitecore.Tasks.CompactClientDataAgent (units processed: )
+ManagedPoolThread #5 07:56:59 INFO  Job started: Sitecore.Tasks.CleanupHistory
+ManagedPoolThread #5 07:56:59 INFO  Job ended: Sitecore.Tasks.CleanupHistory (units processed: )
+ManagedPoolThread #6 07:56:59 INFO  Job started: Sitecore.Tasks.CleanupPublishQueue
+ManagedPoolThread #6 07:56:59 INFO  Job ended: Sitecore.Tasks.CleanupPublishQueue (units processed: )
+ManagedPoolThread #9 07:56:59 INFO  Job started: Sitecore.Tasks.CleanupEventQueue
+ManagedPoolThread #9 07:56:59 INFO  Job ended: Sitecore.Tasks.CleanupEventQueue (units processed: )
+ManagedPoolThread #18 07:56:59 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #18 07:56:59 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 07:58:23 INFO  Health.PrivateBytes: 0
+Heartbeat 07:58:23 INFO  Health.CacheInstances: 84
+Heartbeat 07:58:23 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 07:58:23 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 07:58:23 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #10 08:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #10 08:06:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #10 08:06:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #10 08:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 08:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 08:06:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 08:06:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 08:06:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 08:06:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 08:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #0 08:06:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #0 08:06:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #0 08:06:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 08:08:25 INFO  Health.PrivateBytes: 0
+Heartbeat 08:08:25 INFO  Health.CacheInstances: 84
+Heartbeat 08:08:25 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:08:25 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:08:25 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #16 08:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 08:16:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #16 08:16:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #16 08:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #3 08:16:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #3 08:16:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #3 08:16:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #3 08:16:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #3 08:16:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #3 08:16:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #13 08:16:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #13 08:16:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #13 08:16:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 08:18:27 INFO  Health.PrivateBytes: 0
+Heartbeat 08:18:27 INFO  Health.CacheInstances: 84
+Heartbeat 08:18:27 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:18:27 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:18:27 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #15 08:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #15 08:26:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #15 08:26:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #15 08:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #12 08:26:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 08:26:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #12 08:26:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #12 08:26:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #12 08:26:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #12 08:26:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #2 08:26:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #2 08:26:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #2 08:26:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 08:28:29 INFO  Health.PrivateBytes: 0
+Heartbeat 08:28:29 INFO  Health.CacheInstances: 84
+Heartbeat 08:28:29 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:28:29 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:28:29 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #11 08:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #11 08:36:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #11 08:36:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #11 08:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #6 08:36:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #6 08:36:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #6 08:36:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #6 08:36:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #6 08:36:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #6 08:36:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #9 08:36:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #9 08:36:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #9 08:36:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 08:38:31 INFO  Health.PrivateBytes: 0
+Heartbeat 08:38:31 INFO  Health.CacheInstances: 84
+Heartbeat 08:38:31 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:38:31 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:38:31 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #4 08:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 08:46:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #4 08:46:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #4 08:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #10 08:46:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #10 08:46:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #10 08:46:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #10 08:46:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #10 08:46:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #10 08:46:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #17 08:46:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #17 08:46:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #17 08:46:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 08:48:33 INFO  Health.PrivateBytes: 0
+Heartbeat 08:48:33 INFO  Health.CacheInstances: 84
+Heartbeat 08:48:33 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:48:33 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:48:33 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #1 08:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #1 08:56:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #1 08:56:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #1 08:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #16 08:56:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #16 08:56:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #16 08:56:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #16 08:56:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #16 08:56:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #16 08:56:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #13 08:56:59 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #13 08:56:59 INFO  Scheduling.UrlAgent started. Url: http://127.0.0.1/sitecore/service/keepalive.aspx
+ManagedPoolThread #13 08:56:59 ERROR Exception in UrlAgent (url: /sitecore/service/keepalive.aspx)
+Exception: System.Net.WebException
+Message: The remote server returned an error: (500) Internal Server Error.
+Source: System
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at Sitecore.Web.WebUtil.ExecuteWebPage(String url, NameValueCollection headers)
+   at Sitecore.Tasks.UrlAgent.Run()
+
+ManagedPoolThread #13 08:56:59 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #3 08:56:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #3 08:56:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #3 08:56:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+ManagedPoolThread #14 08:56:59 INFO  Job started: Sitecore.Tasks.CounterDumpAgent
+ManagedPoolThread #14 08:56:59 INFO  Job ended: Sitecore.Tasks.CounterDumpAgent (units processed: )
+Heartbeat 08:58:35 INFO  Health.PrivateBytes: 0
+Heartbeat 08:58:35 INFO  Health.CacheInstances: 84
+Heartbeat 08:58:35 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 08:58:35 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 08:58:35 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+
+ManagedPoolThread #7 09:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #7 09:06:59 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #7 09:06:59 INFO  Examining schedules (count: 0)
+ManagedPoolThread #7 09:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #18 09:06:59 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #18 09:06:59 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #18 09:06:59 INFO  Examining schedules (count: 1)
+ManagedPoolThread #18 09:06:59 INFO  Starting: __Task Schedule
+ManagedPoolThread #18 09:06:59 INFO  Ended: __Task Schedule
+ManagedPoolThread #18 09:06:59 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #15 09:06:59 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #15 09:06:59 INFO  Processing tasks (count: 0)
+ManagedPoolThread #15 09:06:59 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 09:08:37 INFO  Health.PrivateBytes: 0
+Heartbeat 09:08:37 INFO  Health.CacheInstances: 84
+Heartbeat 09:08:37 INFO  Health.CacheTotalCount: 8,242
+Heartbeat 09:08:37 INFO  Health.CacheTotalSize: 26,176,272
+Heartbeat 09:08:37 ERROR Exception in alarm clock event subscriber.
+Exception: System.UnauthorizedAccessException
+Message: Access to the registry key 'Global' is denied.
+Source: mscorlib
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.get_CategoryTable()
+   at System.Diagnostics.PerformanceCounterLib.CategoryExists(String machine, String category)
+   at System.Diagnostics.PerformanceCounterCategory.Exists(String categoryName, String machineName)
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.CanBeCreated()
+   at Sitecore.Diagnostics.PerformanceCounters.PerformanceCounter.get_Value()
+   at Sitecore.Pipelines.HealthMonitor.HealthMonitor.LogCounterStatus(PipelineArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Services.AlarmClock.Heartbeat_Beat(Object sender, EventArgs e)
+

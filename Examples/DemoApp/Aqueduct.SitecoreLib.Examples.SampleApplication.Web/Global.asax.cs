@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Web;
-using Aqueduct.DataAccess;
-using Aqueduct.SitecoreLib.DataAccess;
-using Aqueduct.SitecoreLib.EventHandlers;
 using Aqueduct.SitecoreLib.Examples.SampleApplication.Business.StructureMap;
-using Aqueduct.SitecoreLib.Examples.SampleApplication.Web.Classes;
-using Aqueduct.Web;
-using Aqueduct.Web.Configuration;
 using StructureMap;
 
 namespace Aqueduct.SitecoreLib.Examples.SampleApplication.Web
