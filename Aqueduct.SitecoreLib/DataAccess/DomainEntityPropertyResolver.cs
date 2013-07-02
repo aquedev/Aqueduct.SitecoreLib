@@ -6,7 +6,9 @@ using System.Reflection;
 using Aqueduct.Diagnostics;
 using Aqueduct.Domain;
 using Aqueduct.Extensions;
+using Aqueduct.SitecoreLib.DataAccess.SitecoreResolvers;
 using Aqueduct.SitecoreLib.DataAccess.ValueResolvers;
+using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 using Sitecore.Resources.Media;
@@ -59,6 +61,7 @@ namespace Aqueduct.SitecoreLib.DataAccess
 
         internal static object ResolveItemFieldValue(PropertyInfo mappedProperty, object rawValue)
         {
+
             return GetResolver(mappedProperty.PropertyType).ResolveItemFieldValue(rawValue);
         }
 
@@ -156,6 +159,12 @@ namespace Aqueduct.SitecoreLib.DataAccess
                     object value = mapEntry.Resolver.Resolve(item);
                     property.SetValue(domainEntity, value, null);
                 }
+                else if (FieldIsRichTextBox(item, mapEntry))
+                {
+                    mapEntry.SetResolver(new RichTextResolver(mapEntry.MappedTo));
+                    object value = mapEntry.Resolver.Resolve(item);
+                    property.SetValue(domainEntity, value, null);
+                }
                 else
                 {
                     string rawValue = item[mapEntry.MappedTo];
@@ -169,6 +178,12 @@ namespace Aqueduct.SitecoreLib.DataAccess
 
             DataAccessStatistics.IncrementResolveEntity();
             return domainEntity;
+        }
+
+        private static bool FieldIsRichTextBox(Item item, MapEntry mapEntry)
+        {
+            var field = FieldTypeManager.GetField(item.Fields[mapEntry.MappedTo]);
+            return field is HtmlField;
         }
 
         private static string GetItemUrl(Item item)
@@ -206,7 +221,8 @@ namespace Aqueduct.SitecoreLib.DataAccess
 
         private static object ResolveEntityValue(Type propertyType, string rawValue)
         {
-            return GetResolver(propertyType).ResolveEntityPropertyValue(rawValue, propertyType);
+            var resolver = GetResolver(propertyType);
+            return resolver.ResolveEntityPropertyValue(rawValue, propertyType);
         }
 
         private static Exception FormatException(string format, params object[] args)

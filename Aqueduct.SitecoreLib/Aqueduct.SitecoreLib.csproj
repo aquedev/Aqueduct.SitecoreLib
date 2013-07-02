@@ -116,6 +116,7 @@
     <Compile Include="DataAccess\SitecoreResolvers\ISitecoreResolver.cs" />
     <Compile Include="DataAccess\SitecoreResolvers\ItemNameResolver.cs" />
     <Compile Include="DataAccess\SitecoreResolvers\LinkedFieldItemNameResolver.cs" />
+    <Compile Include="DataAccess\SitecoreResolvers\RichTextResolver.cs" />
     <Compile Include="DataAccess\SitecoreResolvers\SortorderResolver.cs" />
     <Compile Include="DataAccess\StructureMap\MapConventionScanner.cs" />
     <Compile Include="DataAccess\ValueResolvers\ChildrenListResolver.cs" />
